@@ -7,13 +7,8 @@ description: A complete guide to K-pop generations from 1992 to the present.
   Explore the evolution of music, technology, and fandom culture from H.O.T. to
   NewJeans and RIIZE.
 permalink: /2026/07/the-ultimate-guide-to-k-pop-generations.html
-image: /assets/images/generation32-1.png
+image: /assets/images/generation32-2.png
 ---
-### K-POP GENERATIONAL ICONS
-
-The Artists Who Defined Each Era (1992 - Present)
-
-
 &nbsp;
 
 # Introduction: I Didn't Learn K-pop History—I Grew Up With It
