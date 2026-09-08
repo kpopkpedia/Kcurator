@@ -1,6 +1,6 @@
 ---
 title: "Chuli & Miae: Bringing Club Culture to Korean Television"
-date: 2026-09-08 02:47:00
+date: 2026-08-05 10:00:00
 category: Old K-pop
 description: Discover Chul-ie & Mi-ae, the iconic early 1990s Korean co-ed dance
   duo who took the music scene by storm with hits like "Why You (너는 왜)."
