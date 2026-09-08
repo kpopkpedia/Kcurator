@@ -20,8 +20,7 @@ Kim Min-woo's story is not simply one of fame interrupted. It is the story of an
 
 # A Meteoric Debut
 
-🎥 Recommended Watch: Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)
-
+{% include youtube.html url="https://www.youtube.com/watch?v=ObXOb6Oo3fQ" title="Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)" %}
 Kim Min-woo made his debut in February 1990 with his first full-length album.
 
 At the time, he was virtually unknown. Within months, however, he had become one of Korea's most celebrated new singers.
@@ -36,8 +35,7 @@ Songs such as **"It's Only Love," "On the Military Train," "A Friend Like Rest,"
 
 # Why *On the Military Train* Meant So Much
 
-🎥 Recommended Watch: Kim Min-woo – On the Military Train | Gayo Top 10 (1990)
-
+{% include youtube.html url="https://www.youtube.com/watch?v=JgQrWwREBeQ" title="Kim Min-woo – On the Military Train | Gayo Top 10 (1990)" %}
 Among Kim Min-woo's songs, none carries greater cultural significance than **"On the Military Train."**
 
 The song tells the story of a young man leaving for military service: a farewell at the train station, a promise to return, and a love temporarily put on hold.
@@ -60,8 +58,7 @@ That is why the song continues to be remembered as one of the defining musical r
 
 Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)
 
-🎥 Recommended Watch: Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)
-
+{% include youtube.html url="https://www.youtube.com/watch?v=mfjr7JkoNes" title="Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
 lthough many people remember Kim Min-woo for **"It's Only Love,"** his musical legacy extends much further.
 
 **"It's Only Love"** launched him into stardom, **"On the Military Train"** became the soundtrack of an entire generation, and **"A Friend Like Rest"** showcased the warmth and sincerity that defined his vocal style.
