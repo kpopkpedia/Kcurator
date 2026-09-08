@@ -1,1 +1,14 @@
+<div class="video-block">
+  {% if include.title %}
+    <div class="video-title">{{ include.title }}</div>
+  {% endif %}
 
+  <div class="news-frame-box">
+    <iframe
+      src="{{ include.url }}"
+      title="{{ include.iframe_title | default: 'KBS News Video' | escape }}"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
