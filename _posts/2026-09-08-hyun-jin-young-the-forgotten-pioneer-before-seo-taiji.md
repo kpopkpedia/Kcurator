@@ -1,7 +1,7 @@
 ---
 title: "Hyun Jin-young: The Forgotten Pioneer Before Seo Taiji"
 date: 2026-09-08 02:14:00
-category: K-pedia Files
+category: Old K-pop Archive
 description: Explore the legacy of Hyun Jin-young, the pioneer who introduced
   New Jack Swing and hip-hop dance to the Korean music industry in the early
   1990s.
