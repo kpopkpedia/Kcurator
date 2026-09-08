@@ -128,8 +128,3 @@ But before that revolution, Hyun Jin-young had already shown that Korean audienc
 
 Sometimes history remembers the revolution. Just as often, it forgets the pioneer who made it possible.
 
----# Related Articles  
-• [DEUX and the Rise of Korean Hip-Hop Before K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
-
-• [Before the Idols — What Were Koreans Listening to Before Seo Taiji?](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
-
