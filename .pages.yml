@@ -1,7 +1,10 @@
 media:
-  input: assets/images
-  output: /assets/images
-  rename: safe
+  - name: images
+    label: Images
+    input: assets/images
+    output: /assets/images
+    rename: safe
+    categories: [image]
 
 content:
   - name: posts
@@ -55,13 +58,14 @@ content:
       - name: image
         label: Featured Image
         type: image
+        options:
+          media: images
 
-            - name: body
+      - name: body
         label: Article
         type: rich-text
         required: true
         options:
-          media: assets/images
-          path: assets/images
+          media: images
           rename: safe
           switcher: true
