@@ -1,0 +1,62 @@
+media:
+  input: assets/images
+  output: /assets/images
+  rename: safe
+
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+
+    filename: "{year}-{month}-{day}-{title}.md"
+
+    view:
+      fields: [title, date, category]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Publish Date
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss"
+
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          values:
+            - K-pop News
+            - Old K-pop Archive
+            - K-pop History
+            - K-OST
+            - Curator's Choice
+            - K-pop Culture
+            - K-pedia Files
+
+      - name: description
+        label: Meta Description
+        type: text
+
+      - name: image
+        label: Featured Image
+        type: image
+
+      - name: body
+        label: Article
+        type: rich-text
+        required: true
