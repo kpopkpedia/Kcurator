@@ -68,8 +68,7 @@ They shaped fashion trends, launched acting careers, influenced advertising, and
 
 # When One Song Defined an Entire Drama
 
-🎥 Recommended Watch: Star in My Heart OST - Ahn Jae Wook - "Forever" M/V (1997)
-
+{% include youtube.html url="https://www.youtube.com/watch?v=zB6g57JFblo" title='Star in My Heart OST - Ahn Jae Wook - "Forever" M/V (1997)' %}
 Throughout the 1990s, Korean dramas were typically remembered through one defining piece of music.
 
 Sometimes it was an original Korean song written specifically for the series.
