@@ -139,7 +139,5 @@ Seo Taiji and Boys were the ones who changed the script forever.
 # Related Articles
 
 • [DEUX and the Rise of Korean Hip-Hop Before K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
-
 • [Before the Dawn of Idols: How Seo Taiji and Boys Shaped Modern K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
-
 • [Kim Jong-seo (김종서): The Rock Legend Who Brought Korean Rock to the Mainstream](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
