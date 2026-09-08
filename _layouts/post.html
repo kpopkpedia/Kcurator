@@ -1,0 +1,369 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | K-pedia</title>
+  <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f7f5ef;
+      color: #111;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid #d9d6cc;
+      background: rgba(247, 245, 239, 0.97);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: #7e9a17;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    nav a:hover {
+      color: #7e9a17;
+    }
+
+    .article-header {
+      padding: 80px 0 48px;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .category {
+      color: #7e9a17;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 18px;
+    }
+
+    .article-header h1 {
+      max-width: 900px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(42px, 6vw, 72px);
+      line-height: 1.08;
+      font-weight: 500;
+      letter-spacing: -0.035em;
+    }
+
+    .article-meta {
+      margin-top: 22px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .featured-image {
+      margin-top: 42px;
+    }
+
+    .featured-image img {
+      display: block;
+      width: 100%;
+      max-height: 680px;
+      object-fit: cover;
+    }
+
+    .article-wrap {
+      width: min(820px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 64px 0 90px;
+    }
+
+    .article-content {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      line-height: 1.85;
+    }
+
+    .article-content p {
+      margin: 0 0 24px;
+    }
+
+    .article-content h2 {
+      margin: 58px 0 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+    }
+
+    .article-content h3 {
+      margin: 42px 0 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 23px;
+      line-height: 1.3;
+    }
+
+    .article-content img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 36px auto;
+    }
+
+    .article-content figure {
+      margin: 36px 0;
+    }
+
+    .article-content figcaption {
+      margin-top: -22px;
+      color: #777;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .article-content blockquote {
+      margin: 36px 0;
+      padding: 5px 0 5px 24px;
+      border-left: 3px solid #7e9a17;
+      color: #555;
+      font-style: italic;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      margin: 20px 0 28px 28px;
+    }
+
+    .article-content li {
+      margin-bottom: 8px;
+    }
+
+    .article-content a {
+      color: #667f10;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-content table {
+      width: 100%;
+      margin: 36px 0;
+      border-collapse: collapse;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    .article-content th,
+    .article-content td {
+      padding: 14px;
+      border: 1px solid #d9d6cc;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .article-content th {
+      background: #ece9df;
+    }
+
+    .article-content iframe {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto;
+      margin: 38px 0;
+      border: 0;
+    }
+
+    .article-footer {
+      border-top: 1px solid #d9d6cc;
+      padding: 40px 0 55px;
+    }
+
+    .back-home {
+      font-weight: 700;
+      color: #7e9a17;
+      font-size: 14px;
+    }
+
+    footer {
+      border-top: 1px solid #d9d6cc;
+      padding: 38px 0 50px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    @media (max-width: 800px) {
+      .wrap {
+        width: min(100% - 32px, 700px);
+      }
+
+      .header-inner {
+        min-height: auto;
+        padding: 20px 0;
+        display: block;
+      }
+
+      nav {
+        margin-top: 16px;
+        gap: 14px 18px;
+      }
+
+      .article-header {
+        padding: 55px 0 38px;
+      }
+
+      .article-wrap {
+        width: min(100% - 32px, 700px);
+        padding: 45px 0 65px;
+      }
+
+      .article-content {
+        font-size: 18px;
+      }
+
+      .footer-inner {
+        display: block;
+      }
+
+      .footer-inner div + div {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap header-inner">
+
+    <a href="/" class="logo">
+      K-<span>pedia</span>
+    </a>
+
+    <nav>
+      <a href="/">HOME</a>
+      <a href="/about/">ABOUT</a>
+      <a href="/privacy-policy/">PRIVACY</a>
+      <a href="/contact/">GET IN TOUCH</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+  <section class="article-header">
+    <div class="wrap">
+
+      {% if page.category %}
+      <div class="category">
+        {{ page.category }}
+      </div>
+      {% endif %}
+
+      <h1>{{ page.title }}</h1>
+
+      {% if page.date %}
+      <div class="article-meta">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </div>
+      {% endif %}
+
+      {% if page.image %}
+      <div class="featured-image">
+        <img src="{{ page.image }}" alt="{{ page.title }}">
+      </div>
+      {% endif %}
+
+    </div>
+  </section>
+
+
+  <article class="article-wrap">
+
+    <div class="article-content">
+      {{ content }}
+    </div>
+
+    <div class="article-footer">
+      <a href="/" class="back-home">
+        ← Back to K-pedia
+      </a>
+    </div>
+
+  </article>
+
+</main>
+
+
+<footer>
+  <div class="wrap footer-inner">
+
+    <div>
+      © 2026 K-pedia. The Korean Music Archive.
+    </div>
+
+    <div>
+      <a href="/about/">About</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/privacy-policy/">Privacy Policy</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/contact/">Get in Touch</a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
