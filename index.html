@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -357,75 +360,76 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="wrap">
+<section class="section">
+  <div class="wrap">
 
-      <div class="section-head">
-        <h2>Explore K-pedia</h2>
-        <span>Seven ways into Korean music</span>
-      </div>
-
-      <div class="category-grid">
-
-        <a href="#" class="category">
-          <h3>K-pop News</h3>
-          <p>K-pop Trends &amp; Updates</p>
-          <div class="desc">
-            Tours, releases, performances, and notable developments across today's K-pop scene.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>Old K-pop Archive</h3>
-          <p>Rediscovering the Artists Who Built K-pop</p>
-          <div class="desc">
-            Singers, groups, albums, and songs that shaped Korean popular music before the current era.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>K-pop History</h3>
-          <p>From the Birth of Modern K-pop to Today</p>
-          <div class="desc">
-            Turning points, controversies, systems, broadcasts, and events that changed Korean music history.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>K-OST</h3>
-          <p>K-drama and Movie OST</p>
-          <div class="desc">
-            The songs and soundtracks that became inseparable from Korean dramas, films, and their eras.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>Curator's Choice</h3>
-          <p>The Music That Defined Each Era</p>
-          <div class="desc">
-            Selected songs and records viewed through the archive's own curatorial perspective.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>K-pop Culture</h3>
-          <p>Understanding the World Behind the Music</p>
-          <div class="desc">
-            Fandom, television, performance, language, media, and the culture surrounding Korean music.
-          </div>
-        </a>
-
-        <a href="#" class="category">
-          <h3>K-pedia Files</h3>
-          <p>Stories, Mysteries, and Forgotten Chapters</p>
-          <div class="desc">
-            Lesser-known incidents, forgotten records, curious stories, and unresolved corners of Korean pop history.
-          </div>
-        </a>
-
-      </div>
+    <div class="section-head">
+      <h2>Featured</h2>
+      <span>Latest from the archive</span>
     </div>
-  </section>
+
+    {% assign latest_posts = site.posts %}
+
+    {% if latest_posts.size > 0 %}
+
+      {% assign featured = latest_posts[0] %}
+
+      <div class="featured-grid">
+
+        <article class="featured-main">
+
+          <div class="label">
+            {{ featured.category }}
+          </div>
+
+          <h3>
+            <a href="{{ featured.url }}">
+              {{ featured.title }}
+            </a>
+          </h3>
+
+          <p>
+            {% if featured.description %}
+              {{ featured.description }}
+            {% else %}
+              {{ featured.excerpt | strip_html | truncate: 200 }}
+            {% endif %}
+          </p>
+
+        </article>
+
+        <div class="story-list">
+
+          {% for post in latest_posts offset:1 limit:3 %}
+
+            <article class="story">
+
+              <small>
+                {{ post.category }}
+              </small>
+
+              <h4>
+                <a href="{{ post.url }}">
+                  {{ post.title }}
+                </a>
+              </h4>
+
+            </article>
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+    {% else %}
+
+      <p>No articles have been published yet.</p>
+
+    {% endif %}
+
+  </div>
+</section>
 
   <section class="section">
     <div class="wrap">
