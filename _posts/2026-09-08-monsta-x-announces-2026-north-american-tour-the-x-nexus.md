@@ -1,6 +1,6 @@
 ---
 title: "MONSTA X Announces 2026 North American Tour 'THE X : NEXUS'"
-date: 2026-09-08 14:11:00
+date: 2026-08-09 10:00:00
 category: K-pop News
 description: "MONSTA X returns to North America with the 2026 THE X : NEXUS
   tour. See the full schedule, cities, venues, and lineup."
@@ -41,7 +41,7 @@ Fans can expect a career-spanning setlist featuring many of MONSTA X's biggest h
 
 ### Why This Tour Matters
 
-{% include youtube.html url="https://www.youtube.com/watch?v=oqHCkjoLH4Y" title="2026 MONSTA X WORLD TOUR THE X : NEXUS IN SEOUL #2" %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=oqHCkjoLH4Y](https://www.youtube.com/watch?v=oqHCkjoLH4Y)" title="2026 MONSTA X WORLD TOUR THE X : NEXUS IN SEOUL #2" %}
 
 Since making its North American touring debut, MONSTA X has established itself as one of K-pop's most reliable live acts, earning recognition for powerful vocals, dynamic rap performances, synchronized choreography, and energetic stage production. The group's repeated tours across the region have helped build a dedicated international fanbase that has continued to support each new era.
 
