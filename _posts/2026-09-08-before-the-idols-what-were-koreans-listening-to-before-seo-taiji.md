@@ -1,6 +1,6 @@
 ---
 title: " Before the Idols: What Were Koreans Listening to Before Seo Taiji?"
-date: 2026-09-08 01:54:00
+date: 2026-08-03 10:00:00
 category: K-pop History
 description: Explore the South Korean music scene before Seo Taiji and Boys,
   from emotional ballads and soft rock to early dance music pioneers of the late
