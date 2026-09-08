@@ -9,11 +9,16 @@ permalink: /category/k-pop-culture/
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>K-pop Culture | K-pedia</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     body {
       background: #f7f5ef;
@@ -28,13 +33,16 @@ permalink: /category/k-pop-culture/
     }
 
     .wrap {
-      width: min(1100px, calc(100% - 40px));
+      width: min(1180px, calc(100% - 40px));
       margin: 0 auto;
     }
 
     header {
       border-bottom: 1px solid #d9d6cc;
-      background: #f7f5ef;
+      background: rgba(247,245,239,0.97);
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
 
     .header-inner {
@@ -55,48 +63,83 @@ permalink: /category/k-pop-culture/
       color: #7e9a17;
     }
 
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    nav a:hover {
+      color: #7e9a17;
+    }
+
+    nav a.active {
+      color: #7e9a17;
+    }
+
     .page-head {
-      padding: 75px 0 45px;
+      padding: 85px 0 55px;
       border-bottom: 1px solid #d9d6cc;
     }
 
     .page-head small {
       color: #7e9a17;
+      font-size: 13px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: .12em;
+      letter-spacing: 0.12em;
     }
 
     .page-head h1 {
-      margin-top: 12px;
+      margin-top: 14px;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(42px, 6vw, 72px);
+      font-size: clamp(48px, 7vw, 82px);
+      line-height: 1;
       font-weight: 500;
-      letter-spacing: -.03em;
+      letter-spacing: -0.04em;
+    }
+
+    .page-head p {
+      max-width: 700px;
+      margin-top: 22px;
+      color: #666;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      line-height: 1.6;
     }
 
     .posts {
-      padding: 35px 0 80px;
+      padding: 32px 0 90px;
     }
 
     .post {
       display: grid;
-      grid-template-columns: 150px 1fr;
-      gap: 30px;
-      padding: 30px 0;
+      grid-template-columns: 170px 1fr;
+      gap: 45px;
+      padding: 36px 0;
       border-bottom: 1px solid #d9d6cc;
+    }
+
+    .post:first-child {
+      border-top: 1px solid #d9d6cc;
     }
 
     .date {
       color: #777;
       font-size: 13px;
+      padding-top: 7px;
     }
 
     .post h2 {
+      max-width: 900px;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 29px;
+      font-size: clamp(27px, 3vw, 36px);
       line-height: 1.2;
       font-weight: 500;
+      letter-spacing: -0.02em;
     }
 
     .post h2 a:hover {
@@ -104,22 +147,65 @@ permalink: /category/k-pop-culture/
     }
 
     .post p {
-      margin-top: 10px;
+      max-width: 850px;
+      margin-top: 12px;
       color: #666;
       font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .empty {
+      padding: 60px 0;
+      color: #777;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
     }
 
     footer {
       border-top: 1px solid #d9d6cc;
-      padding: 35px 0 50px;
-      color: #666;
+      padding: 38px 0 50px;
       font-size: 13px;
+      color: #666;
     }
 
-    @media (max-width: 700px) {
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    @media (max-width: 800px) {
+      .wrap {
+        width: min(100% - 32px, 700px);
+      }
+
+      .header-inner {
+        min-height: auto;
+        display: block;
+        padding: 20px 0;
+      }
+
+      nav {
+        margin-top: 16px;
+        gap: 14px 18px;
+      }
+
+      .page-head {
+        padding: 55px 0 40px;
+      }
+
       .post {
         grid-template-columns: 1fr;
         gap: 8px;
+        padding: 28px 0;
+      }
+
+      .footer-inner {
+        display: block;
+      }
+
+      .footer-inner div + div {
+        margin-top: 10px;
       }
     }
   </style>
@@ -129,49 +215,100 @@ permalink: /category/k-pop-culture/
 
 <header>
   <div class="wrap header-inner">
-    <a href="/" class="logo">K-<span>pedia</span></a>
-    <a href="/">← HOME</a>
+
+    <a href="/" class="logo">
+      K-<span>pedia</span>
+    </a>
+
+    <nav>
+      <a href="/">HOME</a>
+      <a href="/category/k-pop-news/">NEWS</a>
+      <a href="/category/old-k-pop-archive/">OLD K-POP</a>
+      <a href="/category/k-pop-history/">HISTORY</a>
+      <a href="/category/k-ost/">K-OST</a>
+      <a href="/category/curators-choice/">CURATOR'S CHOICE</a>
+      <a href="/category/k-pop-culture/" class="active">CULTURE</a>
+      <a href="/category/k-pedia-files/">FILES</a>
+    </nav>
+
   </div>
 </header>
 
-<section class="page-head">
-  <div class="wrap">
-    <small>K-pedia Archive</small>
-    <h1>K-pop Culture</h1>
-  </div>
-</section>
+<main>
 
-<main class="wrap posts">
+  <section class="page-head">
+    <div class="wrap">
+      <small>K-pedia Archive</small>
+      <h1>K-pop Culture</h1>
+      <p>
+        Understanding the world behind Korean popular music —
+        fandom, media, technology, performance, and the culture
+        that shaped each generation.
+      </p>
+    </div>
+  </section>
 
-  {% assign category_posts = site.posts | where: "category", "K-pop Culture" %}
+  <section class="wrap posts">
 
-  {% for post in category_posts %}
-    <article class="post">
+    {% assign category_posts = site.posts | where: "category", "K-pop Culture" %}
 
-      <div class="date">
-        {{ post.date | date: "%B %-d, %Y" }}
+    {% if category_posts.size > 0 %}
+
+      {% for post in category_posts %}
+
+        <article class="post">
+
+          <div class="date">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+
+          <div>
+
+            <h2>
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h2>
+
+            {% if post.description %}
+              <p>{{ post.description }}</p>
+            {% else %}
+              <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+      {% endfor %}
+
+    {% else %}
+
+      <div class="empty">
+        No articles have been added to this archive yet.
       </div>
 
-      <div>
-        <h2>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h2>
+    {% endif %}
 
-        {% if post.description %}
-          <p>{{ post.description }}</p>
-        {% endif %}
-      </div>
-
-    </article>
-  {% endfor %}
+  </section>
 
 </main>
 
 <footer>
-  <div class="wrap">
-    © 2026 K-pedia. The Korean Music Archive.
+  <div class="wrap footer-inner">
+
+    <div>
+      © 2026 K-pedia. The Korean Music Archive.
+    </div>
+
+    <div>
+      <a href="/about/">About</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/privacy-policy/">Privacy Policy</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/contact/">Get in Touch</a>
+    </div>
+
   </div>
 </footer>
 
