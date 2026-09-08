@@ -1,5 +1,5 @@
 ---
-title: "Lee Deok-jin & Shin Sung-woo — The Heartthrobs Who Made Rock Mainstream
+title: "Lee Deok-jin & Shin Sung-woo: The Heartthrobs Who Made Rock Mainstream
   in Early 1990s Korea "
 date: 2026-09-08 14:17:00
 category: Old K-pop
