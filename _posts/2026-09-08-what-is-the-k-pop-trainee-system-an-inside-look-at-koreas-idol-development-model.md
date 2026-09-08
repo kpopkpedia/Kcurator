@@ -1,7 +1,7 @@
 ---
 title: What Is the K-pop Trainee System? An Inside Look at Korea's Idol
   Development Model
-date: 2026-09-08 14:28:00
+date: 2026-08-11 10:00:00
 category: K-pop Culture
 description: "Discover how the K-pop trainee system works, from auditions and
   contracts to monthly evaluations "
@@ -114,7 +114,7 @@ These contracts outline the scope of training provided, rules of conduct, and ob
 
 ## Monthly Evaluations
 
-{% include youtube.html url="https://www.youtube.com/watch?v=LN-G05mqGjY" title="BABYMONSTER Trainees Competing in YG Entertainment's Last Evaluation (2023)" %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=LN-G05mqGjY](https://www.youtube.com/watch?v=LN-G05mqGjY)" title="BABYMONSTER Trainees Competing in YG Entertainment's Last Evaluation (2023)" %}
 
 Training is a continuous selection process rather than a guaranteed career path.
 
