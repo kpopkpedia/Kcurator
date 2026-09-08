@@ -42,21 +42,9 @@ They didn't create K-pop as we know it today, but they prepared Korean audiences
 
 ## Sobangcha (1987)
 
-<div class="video-block">
-  <div class="video-title">
-    🎥 Recommended Watch: Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988
-  </div>
+🎥 Recommended Watch: Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988
 
-  <div class="video-container">
-    <iframe
-      src="https://www.youtube.com//embed/YWinmON-Cdg"
-      title="Sobangcha - Last Night Story"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
+
 
 Debuting in 1987, **Sobangcha (소방차)** became one of Korea's earliest performance-oriented male groups. Rather than standing still while singing, they filled the stage with synchronized choreography, energetic movement, and acrobatic performances.
 
@@ -80,21 +68,9 @@ While groups were beginning to experiment with performance, several solo artists
 
 ### Kim Wan-sun
 
-<div class="video-block">
-  <div class="video-title">
-    🎥 Recommended Watch: Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast
-  </div>
+🎥 Recommended Watch: Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast
 
-  <div class="video-container">
-    <iframe
-      src="https://www.youtube.com//embed/uEmJ-7wTLI8"
-      title="Kim Wansun Stage Compilation"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
-  </div>
-</div>
+
 
 Often called **"Korea's Madonna,"** Kim Wan-sun helped redefine the role of a female pop artist.
 
@@ -132,12 +108,3 @@ The stage had already been built.
 
 Seo Taiji and Boys were the ones who changed the script forever.
 
----
-
-
-
-# Related Articles
-
-• [DEUX and the Rise of Korean Hip-Hop Before K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
-• [Before the Dawn of Idols: How Seo Taiji and Boys Shaped Modern K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
-• [Kim Jong-seo (김종서): The Rock Legend Who Brought Korean Rock to the Mainstream](https://www.blogger.com/blog/post/edit/7250231614172444393/2648317329240392817#)
