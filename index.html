@@ -3,11 +3,491 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>K-pedia | The Korean Music Archive</title>
+  <meta name="description" content="K-pedia is an independent archive of Korean popular music, exploring K-pop history, artists, OSTs, culture, trends, and forgotten stories.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f7f5ef;
+      color: #111;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid #d9d6cc;
+      background: rgba(247,245,239,0.97);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: #7e9a17;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    nav a:hover {
+      color: #7e9a17;
+    }
+
+    .hero {
+      padding: 95px 0 80px;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .eyebrow {
+      color: #7e9a17;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      max-width: 850px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 8vw, 94px);
+      line-height: 0.98;
+      font-weight: 500;
+      letter-spacing: -0.045em;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin-top: 28px;
+      color: #555;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      line-height: 1.55;
+    }
+
+    .section {
+      padding: 72px 0;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 30px;
+      margin-bottom: 36px;
+    }
+
+    .section-head h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+
+    .section-head span {
+      color: #7e9a17;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border-top: 1px solid #d9d6cc;
+    }
+
+    .category {
+      min-height: 190px;
+      padding: 34px 32px 34px 0;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .category:nth-child(odd) {
+      padding-right: 50px;
+      border-right: 1px solid #d9d6cc;
+    }
+
+    .category:nth-child(even) {
+      padding-left: 50px;
+    }
+
+    .category h3 {
+      font-size: 28px;
+      letter-spacing: -0.03em;
+      margin-bottom: 6px;
+    }
+
+    .category p {
+      color: #7e9a17;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    .category .desc {
+      margin-top: 18px;
+      color: #666;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .category:hover h3 {
+      color: #7e9a17;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 60px;
+    }
+
+    .featured-main {
+      border-top: 4px solid #111;
+      padding-top: 24px;
+    }
+
+    .label {
+      color: #7e9a17;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .featured-main h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 4vw, 56px);
+      line-height: 1.08;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
+
+    .featured-main p {
+      margin-top: 18px;
+      color: #666;
+      font-size: 16px;
+      max-width: 650px;
+    }
+
+    .story-list {
+      border-top: 1px solid #111;
+    }
+
+    .story {
+      padding: 22px 0;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .story small {
+      color: #7e9a17;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    .story h4 {
+      margin-top: 6px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      line-height: 1.25;
+      font-weight: 500;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 70px;
+    }
+
+    .about h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+
+    .about p {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    footer {
+      padding: 38px 0 50px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    @media (max-width: 800px) {
+      .wrap {
+        width: min(100% - 32px, 700px);
+      }
+
+      .header-inner {
+        min-height: auto;
+        padding: 22px 0;
+        display: block;
+      }
+
+      nav {
+        margin-top: 18px;
+        gap: 14px 18px;
+      }
+
+      .hero {
+        padding: 65px 0 55px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      .category-grid,
+      .featured-grid,
+      .about {
+        grid-template-columns: 1fr;
+      }
+
+      .category {
+        padding: 30px 0 !important;
+        border-right: none !important;
+      }
+
+      .category h3 {
+        font-size: 26px;
+      }
+
+      .category p {
+        font-size: 22px;
+      }
+
+      .featured-grid,
+      .about {
+        gap: 45px;
+      }
+
+      .section {
+        padding: 55px 0;
+      }
+
+      .footer-inner {
+        display: block;
+      }
+
+      .footer-inner div + div {
+        margin-top: 8px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>K-pedia</h1>
-  <p>The Korean Music Archive</p>
-  <p>GitHub Pages test site.</p>
+
+<header>
+  <div class="wrap header-inner">
+    <a href="#" class="logo">K-<span>pedia</span></a>
+
+    <nav>
+      <a href="#">NEWS</a>
+      <a href="#">OLD K-POP</a>
+      <a href="#">HISTORY</a>
+      <a href="#">K-OST</a>
+      <a href="#">CURATOR'S CHOICE</a>
+      <a href="#">CULTURE</a>
+      <a href="#">FILES</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">The Korean Music Archive</div>
+      <h1>Korean music,<br>remembered differently.</h1>
+      <p>
+        K-pedia documents the songs, artists, moments, and cultural stories
+        that shaped Korean popular music — from forgotten records to today's K-pop.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-head">
+        <h2>Explore K-pedia</h2>
+        <span>Seven ways into Korean music</span>
+      </div>
+
+      <div class="category-grid">
+
+        <a href="#" class="category">
+          <h3>K-pop News</h3>
+          <p>K-pop Trends &amp; Updates</p>
+          <div class="desc">
+            Tours, releases, performances, and notable developments across today's K-pop scene.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>Old K-pop Archive</h3>
+          <p>Rediscovering the Artists Who Built K-pop</p>
+          <div class="desc">
+            Singers, groups, albums, and songs that shaped Korean popular music before the current era.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>K-pop History</h3>
+          <p>From the Birth of Modern K-pop to Today</p>
+          <div class="desc">
+            Turning points, controversies, systems, broadcasts, and events that changed Korean music history.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>K-OST</h3>
+          <p>K-drama and Movie OST</p>
+          <div class="desc">
+            The songs and soundtracks that became inseparable from Korean dramas, films, and their eras.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>Curator's Choice</h3>
+          <p>The Music That Defined Each Era</p>
+          <div class="desc">
+            Selected songs and records viewed through the archive's own curatorial perspective.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>K-pop Culture</h3>
+          <p>Understanding the World Behind the Music</p>
+          <div class="desc">
+            Fandom, television, performance, language, media, and the culture surrounding Korean music.
+          </div>
+        </a>
+
+        <a href="#" class="category">
+          <h3>K-pedia Files</h3>
+          <p>Stories, Mysteries, and Forgotten Chapters</p>
+          <div class="desc">
+            Lesser-known incidents, forgotten records, curious stories, and unresolved corners of Korean pop history.
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-head">
+        <h2>Featured</h2>
+        <span>From the archive</span>
+      </div>
+
+      <div class="featured-grid">
+
+        <article class="featured-main">
+          <div class="label">K-pop History</div>
+          <h3>The stories behind Korean popular music are bigger than the songs themselves.</h3>
+          <p>
+            K-pedia looks beyond charts and nostalgia to document how music,
+            television, fandom, technology, and social change shaped each era.
+          </p>
+        </article>
+
+        <div class="story-list">
+
+          <article class="story">
+            <small>Old K-pop Archive</small>
+            <h4>Rediscovering the artists who built K-pop</h4>
+          </article>
+
+          <article class="story">
+            <small>K-OST</small>
+            <h4>When a drama soundtrack becomes part of cultural memory</h4>
+          </article>
+
+          <article class="story">
+            <small>K-pedia Files</small>
+            <h4>The forgotten stories hidden inside Korean music history</h4>
+          </article>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap about">
+      <h2>About K-pedia</h2>
+      <p>
+        K-pedia is an independent Korean music archive dedicated to preserving
+        context as well as memory. It follows Korean popular music across generations,
+        connecting the familiar songs with the stories, people, media, and cultural
+        changes surrounding them.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div>© 2026 K-pedia. The Korean Music Archive.</div>
+    <div>Independent archive of Korean popular music.</div>
+  </div>
+</footer>
+
 </body>
 </html>
