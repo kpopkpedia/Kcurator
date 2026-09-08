@@ -12,60 +12,15 @@ permalink: /2026/07/the-ultimate-guide-to-k-pop-generations.html
 
 &nbsp;
 
-&nbsp;
-
 ### K-POP GENERATIONAL ICONS
 
 The Artists Who Defined Each Era (1992 - Present)
 
 ```
-  <!--1st Gen-->
-  <div class="timeline-row">
-    <div class="gen-badge" style="color: #e11d48;">1st GEN<br /><span>(1996-2002)</span></div>
-    <div class="gen-desc">
-      <strong>H.O.T. / S.E.S. / Sechs Kies / Fin.K.L / g.o.d</strong>
-      <p>The creators of the modern idol training system and the birth of passionate, physical fandom culture.</p>
-    </div>
-  </div>
-
-  <!--2nd Gen-->
-  <div class="timeline-row">
-    <div class="gen-badge" style="color: #d97706;">2nd GEN<br /><span>(2003-2011)</span></div>
-    <div class="gen-desc">
-      <strong>TVXQ! / BIGBANG / Girls' Generation / SHINee / 2NE1</strong>
-      <p>The Hallyu Wave expands globally, transitioning into the digital music (MP3) era and conquering Asian music markets.</p>
-    </div>
-  </div>
-
-  <!--3rd Gen-->
-  <div class="timeline-row">
-    <div class="gen-badge" style="color: #059669;">3rd GEN<br /><span>(2012-2017)</span></div>
-    <div class="gen-desc">
-      <strong>BTS / EXO / TWICE / BLACKPINK / SEVENTEEN</strong>
-      <p>The social media explosion. Breakthroughs on global charts, massive international world tours, and deep-lore universe concepts.</p>
-    </div>
-  </div>
-
-  <!--4th Gen-->
-  <div class="timeline-row">
-    <div class="gen-badge" style="color: #2563eb;">4th GEN<br /><span>(2018-2022)</span></div>
-    <div class="gen-desc">
-      <strong>Stray Kids / NewJeans / aespa / IVE / TXT</strong>
-      <p>A boundary-less digital playground. Strong performance focuses, virtual/metaverse concepts, and global chart domination from day one.</p>
-    </div>
-  </div>
-
-  <!--5th Gen-->
-  <div class="timeline-row">
-    <div class="gen-badge" style="color: #7c3aed;">5th GEN<br /><span>(2023-Present)</span></div>
-    <div class="gen-desc">
-      <strong>RIIZE / TWS / ZEROBASEONE / ILLIT / KISS OF LIFE</strong>
-      <p>The return of friendly "easy listening" and high loopability. Authentic, casual interactions through modern, fully connected digital spaces.</p>
-    </div>
-  </div>
-
-</div>
+ 
 ```
+
+![](/assets/images/generation3.png)
 
 
 
