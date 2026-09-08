@@ -54,8 +54,7 @@ At the time, however, it was unlike anything Korean audiences had seen before.
 
 # Who Was Hyun Jin-young?
 
-🎥 Recommended Watch: Hyun Jin-young - "You in My Faded Memories" (흐린 기억 속의 그대) | MBC Saturday Night Music Show [October 17, 1992]
-
+{% include youtube.html url="https://www.youtube.com/watch?v=cG51QLpyLC0" title='Hyun Jin-young - "You in My Faded Memories" (흐린 기억 속의 그대) | MBC Saturday Night Music Show [October 17, 1992]' %}
 Hyun Jin-young debuted in 1990 with **"Sad Mannequin" (슬픈 마네킹)**, but it was **"You in My Faded Memories" (흐린 기억 속의 그대)** that established him as one of Korea's biggest young stars.
 
 His oversized streetwear, rhythmic vocals, expressive dancing, and New Jack Swing sound stood in sharp contrast to the polished ballad singers who dominated Korean television.
