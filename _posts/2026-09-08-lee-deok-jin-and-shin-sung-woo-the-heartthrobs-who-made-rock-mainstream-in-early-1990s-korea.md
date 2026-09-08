@@ -1,7 +1,7 @@
 ---
 title: "Lee Deok-jin & Shin Sung-woo: The Heartthrobs Who Made Rock Mainstream
   in Early 1990s Korea "
-date: 2026-09-08 14:17:00
+date: 2026-08-10 10:00:00
 category: Old K-pop
 description: "Renaissance of 90s Rock & Ballads: Both artists expanded the
   diversity of South Korean pop music in the 1990s alongside contemporaries like
@@ -93,8 +93,8 @@ Their careers serve as a reminder that the foundations of modern K-pop were buil
 
 ## Recommended Videos
 
-{% include youtube.html url="https://www.youtube.com/watch?v=L-QBh1UGV9A" title='Lee Deok-jin - "One Thing I Know" | KBS2 Saturday Night Show (September 5, 1992)' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=L-QBh1UGV9A](https://www.youtube.com/watch?v=L-QBh1UGV9A)" title='Lee Deok-jin - "One Thing I Know" | KBS2 Saturday Night Show (September 5, 1992)' %}
 
-{% include youtube.html url="https://www.youtube.com/watch?v=S6Df2d8TTNo" title='Shin Sung-woo – "Towards Tomorrow" | KBS2 Gayo Top 10 (1992)' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=S6Df2d8TTNo](https://www.youtube.com/watch?v=S6Df2d8TTNo)" title='Shin Sung-woo – "Towards Tomorrow" | KBS2 Gayo Top 10 (1992)' %}
 
-{% include youtube.html url="https://www.youtube.com/watch?v=ZeylX1OIw8g" title='Shin Sung-woo – "Prologue" | KBS2 Gayo Top 10 (August 10, 1994)' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=ZeylX1OIw8g](https://www.youtube.com/watch?v=ZeylX1OIw8g)" title='Shin Sung-woo – "Prologue" | KBS2 Gayo Top 10 (August 10, 1994)' %}
