@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | K-pedia</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f7f5ef;
+      color: #111;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid #d9d6cc;
+      background: #f7f5ef;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-inner {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: #7e9a17;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #7e9a17;
+    }
+
+    .page-head {
+      padding: 85px 0 55px;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .page-head small {
+      color: #7e9a17;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+    }
+
+    .page-head h1 {
+      margin-top: 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 7vw, 82px);
+      line-height: 1;
+      font-weight: 500;
+      letter-spacing: -.04em;
+    }
+
+    .posts {
+      padding: 32px 0 90px;
+    }
+
+    .post {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 45px;
+      padding: 36px 0;
+      border-bottom: 1px solid #d9d6cc;
+    }
+
+    .post:first-child {
+      border-top: 1px solid #d9d6cc;
+    }
+
+    .date {
+      color: #777;
+      font-size: 13px;
+      padding-top: 7px;
+    }
+
+    .post h2 {
+      max-width: 900px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(27px, 3vw, 36px);
+      line-height: 1.2;
+      font-weight: 500;
+    }
+
+    .post h2 a:hover {
+      color: #7e9a17;
+    }
+
+    .post p {
+      max-width: 850px;
+      margin-top: 12px;
+      color: #666;
+      font-size: 15px;
+    }
+
+    .empty {
+      padding: 60px 0;
+      color: #777;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+    }
+
+    footer {
+      border-top: 1px solid #d9d6cc;
+      padding: 38px 0 50px;
+      color: #666;
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    @media (max-width: 800px) {
+      .wrap {
+        width: min(100% - 32px, 700px);
+      }
+
+      .header-inner {
+        display: block;
+        padding: 20px 0;
+      }
+
+      nav {
+        margin-top: 16px;
+        gap: 14px 18px;
+      }
+
+      .post {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .footer-inner {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap header-inner">
+
+    <a href="/" class="logo">
+      K-<span>pedia</span>
+    </a>
+
+    <nav>
+      <a href="/">HOME</a>
+      <a href="/category/k-pop-news/">NEWS</a>
+      <a href="/category/old-k-pop-archive/">OLD K-POP</a>
+      <a href="/category/k-pop-history/">HISTORY</a>
+      <a href="/category/k-ost/">K-OST</a>
+      <a href="/category/curators-choice/">CURATOR'S CHOICE</a>
+      <a href="/category/k-pop-culture/">CULTURE</a>
+      <a href="/category/k-pedia-files/">FILES</a>
+    </nav>
+
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <small>K-pedia Archive</small>
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<main class="wrap posts">
+
+  {% assign category_posts = site.posts | where: "category", page.category %}
+
+  {% if category_posts.size > 0 %}
+
+    {% for post in category_posts %}
+
+      <article class="post">
+
+        <div class="date">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </div>
+
+        <div>
+          <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h2>
+
+          <p>
+            {{ post.description | default: post.excerpt | strip_html | truncate: 180 }}
+          </p>
+        </div>
+
+      </article>
+
+    {% endfor %}
+
+  {% else %}
+
+    <div class="empty">
+      No articles have been added to this archive yet.
+    </div>
+
+  {% endif %}
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div>© 2026 K-pedia. The Korean Music Archive.</div>
+
+    <div>
+      <a href="/about.html">About</a>
+      &nbsp;·&nbsp;
+      <a href="/privacy-policy.html">Privacy Policy</a>
+      &nbsp;·&nbsp;
+      <a href="/contact.html">Get in Touch</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
