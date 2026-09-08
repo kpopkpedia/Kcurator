@@ -1,6 +1,6 @@
 ---
 title: "Hyun Jin-young: The Forgotten Pioneer Before Seo Taiji"
-date: 2026-09-08 02:14:00
+date: 2026-08-04 10:00:00
 category: Old K-pop
 description: Explore the legacy of Hyun Jin-young, the pioneer who introduced
   New Jack Swing and hip-hop dance to the Korean music industry in the early
@@ -54,7 +54,7 @@ At the time, however, it was unlike anything Korean audiences had seen before.
 
 # Who Was Hyun Jin-young?
 
-{% include youtube.html url="https://www.youtube.com/watch?v=cG51QLpyLC0" title='Hyun Jin-young - "You in My Faded Memories" (흐린 기억 속의 그대) | MBC Saturday Night Music Show [October 17, 1992]' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=cG51QLpyLC0](https://www.youtube.com/watch?v=cG51QLpyLC0)" title='Hyun Jin-young - "You in My Faded Memories" (흐린 기억 속의 그대) | MBC Saturday Night Music Show [October 17, 1992]' %}
 Hyun Jin-young debuted in 1990 with **"Sad Mannequin" (슬픈 마네킹)**, but it was **"You in My Faded Memories" (흐린 기억 속의 그대)** that established him as one of Korea's biggest young stars.
 
 His oversized streetwear, rhythmic vocals, expressive dancing, and New Jack Swing sound stood in sharp contrast to the polished ballad singers who dominated Korean television.
