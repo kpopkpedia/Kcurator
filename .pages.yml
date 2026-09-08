@@ -56,7 +56,12 @@ content:
         label: Featured Image
         type: image
 
-      - name: body
+            - name: body
         label: Article
         type: rich-text
         required: true
+        options:
+          media: assets/images
+          path: assets/images
+          rename: safe
+          switcher: true
