@@ -42,8 +42,7 @@ They didn't create K-pop as we know it today, but they prepared Korean audiences
 
 ## Sobangcha (1987)
 
-🎥 Recommended Watch: Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988
-
+{% include youtube.html url="https://www.youtube.com/watch?v=GwtOg8fTn4E" title="Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988" %}
 
 
 Debuting in 1987, **Sobangcha (소방차)** became one of Korea's earliest performance-oriented male groups. Rather than standing still while singing, they filled the stage with synchronized choreography, energetic movement, and acrobatic performances.
@@ -68,9 +67,7 @@ While groups were beginning to experiment with performance, several solo artists
 
 ### Kim Wan-sun
 
-🎥 Recommended Watch: Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast
-
-
+{% include youtube.html url="https://www.youtube.com/watch?v=uEmJ-7wTLI8" title="Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast" %}
 
 Often called **"Korea's Madonna,"** Kim Wan-sun helped redefine the role of a female pop artist.
 
