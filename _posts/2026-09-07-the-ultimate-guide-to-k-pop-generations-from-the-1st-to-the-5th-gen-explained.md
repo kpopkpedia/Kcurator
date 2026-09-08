@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Guide to K-pop Generations: From the 1st to the 5th Gen
   Explained"
-date: 2026-09-07 23:24:00
+date: 2026-08-01 10:00:00
 category: K-pop Culture
 description: A complete guide to K-pop generations from 1992 to the present.
   Explore the evolution of music, technology, and fandom culture from H.O.T. to
@@ -66,7 +66,7 @@ Back then, we didn't have smartphones or social media. If you wanted to know you
 
 # 2nd Generation (2003–2011): K-pop Crosses Borders
 
-{% include youtube.html url="https://www.youtube.com/watch?v=U7mPqycQ0tQ" title='Girls’ Generation (SNSD) - "Gee" M/V' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=U7mPqycQ0tQ](https://www.youtube.com/watch?v=U7mPqycQ0tQ)" title='Girls’ Generation (SNSD) - "Gee" M/V' %}
 
 One of the most viral and era-defining hook songs of the 2nd Generation.
 
