@@ -6,7 +6,7 @@ description: Explore the legacy of Hyun Jin-young, the pioneer who introduced
   New Jack Swing and hip-hop dance to the Korean music industry in the early
   1990s.
 permalink: 2026/07/old-k-pop-hyun-jin-young-forgotten.html
-image: /assets/images/hynjinyoung.png
+image: /assets/images/hynjinyoung.jpg
 ---
 When people talk about the origins of modern K-pop, the conversation almost always begins with **Seo Taiji and Boys**.
 
