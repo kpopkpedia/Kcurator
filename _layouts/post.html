@@ -321,6 +321,113 @@
         margin-top: 10px;
       }
     }
+
+    /* =========================
+   RELATED ARTICLES
+========================= */
+
+.related-articles {
+  margin-top: 70px;
+  padding-top: 28px;
+  border-top: 2px solid #111;
+}
+
+.related-heading {
+  margin-bottom: 26px;
+}
+
+.related-heading span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.related-card {
+  min-width: 0;
+}
+
+.related-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: hidden;
+  background: #ebe8df;
+}
+
+.related-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.related-category {
+  margin-bottom: 7px;
+  color: #7e9a17;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.related-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.related-card h3 a:hover {
+  color: #7e9a17;
+}
+
+.related-date {
+  margin-top: 10px;
+  color: #999;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+
+/* Tablet */
+
+@media (max-width: 800px) {
+
+  .related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 560px) {
+
+  .related-articles {
+    margin-top: 50px;
+    padding-top: 22px;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .related-card h3 {
+    font-size: 22px;
+  }
+
+}
     /* =========================
    VIDEO
 ========================= */
@@ -422,6 +529,72 @@
 
     <div class="article-content">
       {{ content }}
+      <!-- RELATED ARTICLES -->
+
+{% assign related_posts = site.posts | where: "category", page.category %}
+{% assign related_count = 0 %}
+
+{% for post in related_posts %}
+  {% if post.url != page.url %}
+    {% assign related_count = related_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if related_count > 0 %}
+
+<section class="related-articles">
+
+  <div class="related-heading">
+    <span>Related Articles</span>
+  </div>
+
+  <div class="related-grid">
+
+    {% assign shown = 0 %}
+
+    {% for post in related_posts %}
+
+      {% if post.url != page.url and shown < 3 %}
+
+        <article class="related-card">
+
+          {% if post.image %}
+            <a href="{{ post.url }}" class="related-image">
+              <img
+                src="{{ post.image }}"
+                alt="{{ post.title }}"
+                loading="lazy"
+              >
+            </a>
+          {% endif %}
+
+          <div class="related-category">
+            {{ post.category }}
+          </div>
+
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          <div class="related-date">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+
+        </article>
+
+        {% assign shown = shown | plus: 1 %}
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+{% endif %}
     </div>
 
     <div class="article-footer">
