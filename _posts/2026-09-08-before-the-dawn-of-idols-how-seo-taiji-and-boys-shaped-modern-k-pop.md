@@ -80,14 +80,8 @@ Their music demonstrated that commercial success and meaningful social commentar
 
 ## Popularizing the Modern Comeback Cycle
 
-<div class="video-title">🎥 Recommended Watch: Seotaiji and Boys - "Come Back Home" M/V</div>
+🎥 Recommended Watch: Seotaiji and Boys - "Come Back Home" M/V
 
-<div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/q3xy4p2JTfU"
-    allowfullscreen>
-  </iframe>
-</div>
 One of Seo Taiji's most lasting contributions was changing how artists promoted new music.
 
 At the time, Korean musicians were generally expected to appear continuously on television and radio while simultaneously preparing their next releases, leaving little time for creative development.
@@ -110,12 +104,3 @@ Modern K-pop has evolved in ways no one could have imagined in 1992. Yet many of
 
 Without that moment in 1992, K-pop as we know it today would almost certainly look very different.
 
----
-
-
-
-# Related Articles
-
-•[DEUX and the Rise of Korean Hip-Hop Before K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
-• [Before the Idols — What Were Koreans Listening to Before Seo Taiji?](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)  
-• [Kim Jong-seo (김종서): The Rock Legend Who Brought Korean Rock to the Mainstream](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
