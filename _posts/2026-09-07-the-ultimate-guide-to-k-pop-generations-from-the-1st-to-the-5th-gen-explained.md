@@ -7,10 +7,8 @@ description: A complete guide to K-pop generations from 1992 to the present.
   Explore the evolution of music, technology, and fandom culture from H.O.T. to
   NewJeans and RIIZE.
 permalink: /2026/07/the-ultimate-guide-to-k-pop-generations.html
-image: /assets/images/generation-2.jpeg
+image: /assets/images/generation.jpeg
 ---
-
-
 # Introduction: I Didn't Learn K-pop History—I Grew Up With It
 
 There are plenty of websites that explain K-pop through debut dates, album sales, and entertainment companies. Those facts are useful, but they only tell part of the story.
