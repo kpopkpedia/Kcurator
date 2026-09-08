@@ -1,0 +1,17 @@
+{% assign video_id = include.url | split: 'v=' | last | split: '&' | first %}
+
+<div class="video-block">
+  {% if include.title %}
+  <div class="video-title">🎥 Recommended Watch: {{ include.title }}</div>
+  {% endif %}
+
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/{{ video_id }}"
+      title="{{ include.title }}"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
