@@ -1,6 +1,6 @@
 ---
 title: "Before the Dawn of Idols: How Seo Taiji and Boys Shaped Modern K-pop"
-date: 2026-09-08 01:46:00
+date: 2026-08-02 10:00:00
 category: K-pop History
 description: Discover how Seo Taiji and Boys revolutionized the Korean music
   industry in 1992, shifting pop culture toward youth and laying the groundwork
@@ -80,7 +80,7 @@ Their music demonstrated that commercial success and meaningful social commentar
 
 ## Popularizing the Modern Comeback Cycle
 
-{% include youtube.html url="https://www.youtube.com/watch?v=q3xy4p2JTfU" title='Seotaiji and Boys - "Come Back Home" M/V' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=q3xy4p2JTfU](https://www.youtube.com/watch?v=q3xy4p2JTfU)" title='Seotaiji and Boys - "Come Back Home" M/V' %}
 One of Seo Taiji's most lasting contributions was changing how artists promoted new music.
 
 At the time, Korean musicians were generally expected to appear continuously on television and radio while simultaneously preparing their next releases, leaving little time for creative development.
