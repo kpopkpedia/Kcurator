@@ -117,6 +117,5 @@ Without that moment in 1992, K-pop as we know it today would almost certainly lo
 # Related Articles
 
 •[DEUX and the Rise of Korean Hip-Hop Before K-pop](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
-
 • [Before the Idols — What Were Koreans Listening to Before Seo Taiji?](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)  
 • [Kim Jong-seo (김종서): The Rock Legend Who Brought Korean Rock to the Mainstream](https://www.blogger.com/blog/post/edit/7250231614172444393/6544846769663225146#)
