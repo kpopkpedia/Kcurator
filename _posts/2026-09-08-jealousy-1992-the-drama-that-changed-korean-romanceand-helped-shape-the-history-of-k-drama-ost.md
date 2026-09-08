@@ -67,8 +67,7 @@ Her performance helped redefine the image of the modern Korean female lead and b
 
 # Music Became Part of the Story
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=cwPz44UBvMY](https://www.youtube.com/watch?v=cwPz44UBvMY)" title="Yoo Seung-bum - Jealousy, Jealousy OST MV (1992)" %}
-
+{% include youtube.html url="https://www.youtube.com/embed/cwPz44UBvMY" title="Yoo Seung-bum - Jealousy, Jealousy OST MV (1992)" %}
 One of *Jealousy*'s greatest legacies lies in its music.
 
 Before the early 1990s, Korean television dramas relied primarily on orchestral background scores composed specifically for each production. Theme songs existed, but they were rarely discussed as an important part of the viewing experience.
