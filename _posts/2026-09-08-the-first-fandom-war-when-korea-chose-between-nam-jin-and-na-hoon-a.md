@@ -1,6 +1,6 @@
 ---
 title: "The First Fandom War: When Korea Chose Between Nam Jin and Na Hoon-a "
-date: 2026-09-08 14:03:00
+date: 2026-08-08 10:00:00
 category: K-pedia Files
 description: Explore the origin of Korean fandom culture in the 1960s and 70s
   through the legendary rivalry between Nam Jin and Na Hoon-a, Korea's first pop
