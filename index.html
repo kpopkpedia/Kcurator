@@ -326,17 +326,46 @@ layout: null
         margin-top: 8px;
       }
     }
- .featured-image-link {
+.featured-main-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.featured-image-link {
   display: block;
   width: 260px;
-  margin-bottom: 22px;
+  min-width: 260px;
 }
 
 .featured-image-link img {
+  display: block;
   width: 260px;
   height: 160px;
   object-fit: cover;
-  display: block;
+}
+
+.featured-text {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .featured-main-inner {
+    display: block;
+  }
+
+  .featured-image-link {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .featured-image-link img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
 }
   </style>
 </head>
@@ -388,32 +417,41 @@ layout: null
 
       <div class="featured-grid">
 
-        <article class="featured-main">
-{% if featured.image %}
-  <a href="{{ featured.url }}" class="featured-image-link">
-    <img src="{{ featured.image }}" alt="{{ featured.title }}">
-  </a>
-{% endif %}
-          <div class="label">
-            {{ featured.category }}
-          </div>
+  <article class="featured-main">
 
-          <h3>
-            <a href="{{ featured.url }}">
-              {{ featured.title }}
-            </a>
-          </h3>
+  <div class="featured-main-inner">
 
-          <p>
-            {% if featured.description %}
-              {{ featured.description }}
-            {% else %}
-              {{ featured.excerpt | strip_html | truncate: 200 }}
-            {% endif %}
-          </p>
+    {% if featured.image %}
+      <a href="{{ featured.url }}" class="featured-image-link">
+        <img src="{{ featured.image }}" alt="{{ featured.title }}">
+      </a>
+    {% endif %}
 
-        </article>
+    <div class="featured-text">
 
+      <div class="label">
+        {{ featured.category }}
+      </div>
+
+      <h3>
+        <a href="{{ featured.url }}">
+          {{ featured.title }}
+        </a>
+      </h3>
+
+      <p>
+        {% if featured.description %}
+          {{ featured.description }}
+        {% else %}
+          {{ featured.excerpt | strip_html | truncate: 200 }}
+        {% endif %}
+      </p>
+
+    </div>
+
+  </div>
+
+</article>
         <div class="story-list">
 
           {% for post in latest_posts offset:1 limit:3 %}
