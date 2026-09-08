@@ -54,7 +54,13 @@ content:
       - name: description
         label: Meta Description
         type: text
-
+        
+      - name: permalink
+        label: Original URL / Permalink
+        type: string
+        required: false
+        description: "Keep the original Blogger URL path when migrating an existing article."
+        
       - name: image
         label: Featured Image
         type: image
