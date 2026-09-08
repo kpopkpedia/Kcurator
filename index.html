@@ -1,28 +1,44 @@
 ---
 layout: null
 ---
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>K-pedia | The Korean Music Archive</title>
+
+  <meta
+    name="description"
+    content="K-pedia is an independent archive exploring the music, artists, culture and stories that shaped Korean popular music."
+  >
+
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta name="description" content="K-pedia is an independent archive of Korean popular music, exploring K-pop history, artists, OSTs, culture, trends, and forgotten stories.">
 
   <style>
+
+    /* =====================================================
+       BASE
+    ===================================================== */
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       background: #f7f5ef;
       color: #111;
       font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     a {
@@ -30,31 +46,42 @@ layout: null
       text-decoration: none;
     }
 
+    img {
+      max-width: 100%;
+    }
+
     .wrap {
-      width: min(1180px, calc(100% - 40px));
+      width: min(1180px, calc(100% - 48px));
       margin: 0 auto;
     }
 
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
     header {
       border-bottom: 1px solid #d9d6cc;
-      background: rgba(247,245,239,0.97);
+      background: rgba(247, 245, 239, 0.97);
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 20;
     }
 
     .header-inner {
-      min-height: 82px;
+      min-height: 84px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 30px;
+      gap: 36px;
     }
 
     .logo {
-      font-size: 30px;
+      flex-shrink: 0;
+      font-size: 31px;
       font-weight: 800;
-      letter-spacing: -1px;
+      line-height: 1;
+      letter-spacing: -1.4px;
     }
 
     .logo span {
@@ -63,201 +90,335 @@ layout: null
 
     nav {
       display: flex;
+      align-items: center;
+      justify-content: flex-end;
       flex-wrap: wrap;
       gap: 22px;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.04em;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.045em;
+    }
+
+    nav a {
+      transition: color 0.2s ease;
     }
 
     nav a:hover {
       color: #7e9a17;
     }
 
-    .hero {
-      padding: 95px 0 80px;
-      border-bottom: 1px solid #d9d6cc;
+
+    /* =====================================================
+       INTRO
+    ===================================================== */
+
+    .intro {
+      padding: 50px 0 32px;
     }
 
-    .eyebrow {
-      color: #7e9a17;
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      font-weight: 700;
-      margin-bottom: 18px;
+    .intro-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 40px;
     }
 
-    .hero h1 {
-      max-width: 850px;
+    .intro-title {
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(48px, 8vw, 94px);
-      line-height: 0.98;
+      font-size: 17px;
+      font-weight: 400;
+      color: #555;
+    }
+
+    .intro-note {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: #7e9a17;
+      text-transform: uppercase;
+    }
+
+
+    /* =====================================================
+       SECTION HEADINGS
+    ===================================================== */
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 20px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid #111;
+    }
+
+    .section-heading h2 {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .section-heading span {
+      color: #888;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 13px;
+      font-style: italic;
+    }
+
+
+    /* =====================================================
+       COVER STORY
+    ===================================================== */
+
+    .cover-section {
+      padding-bottom: 76px;
+    }
+
+    .cover-story {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.85fr);
+      gap: 54px;
+      padding-top: 30px;
+      align-items: center;
+    }
+
+    .cover-image {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      background: #e8e5dc;
+    }
+
+    .cover-image img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      transition: transform 0.35s ease;
+    }
+
+    .cover-image:hover img {
+      transform: scale(1.015);
+    }
+
+    .cover-copy {
+      min-width: 0;
+    }
+
+    .category-label {
+      margin-bottom: 14px;
+      color: #7e9a17;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .cover-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 4.2vw, 60px);
+      line-height: 0.99;
       font-weight: 500;
       letter-spacing: -0.045em;
     }
 
-    .hero p {
-      max-width: 680px;
-      margin-top: 28px;
-      color: #555;
+    .cover-title a {
+      transition: color 0.2s ease;
+    }
+
+    .cover-title a:hover {
+      color: #7e9a17;
+    }
+
+    .cover-description {
+      margin-top: 22px;
+      max-width: 540px;
+      color: #5f5d57;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 21px;
+      font-size: 17px;
+      line-height: 1.62;
+    }
+
+    .cover-date {
+      margin-top: 22px;
+      color: #888;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .cover-story.no-cover-image {
+      grid-template-columns: minmax(0, 850px);
+    }
+
+    .cover-story.no-cover-image .cover-title {
+      font-size: clamp(46px, 6vw, 76px);
+    }
+
+
+    /* =====================================================
+       LATEST STORIES
+    ===================================================== */
+
+    .latest-section {
+      padding-bottom: 88px;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 32px;
+      row-gap: 54px;
+      padding-top: 30px;
+    }
+
+    .story-card {
+      min-width: 0;
+    }
+
+    .story-image {
+      display: block;
+      margin-bottom: 18px;
+      overflow: hidden;
+      background: #e8e5dc;
+    }
+
+    .story-image img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .story-image:hover img {
+      transform: scale(1.02);
+    }
+
+    .story-category {
+      margin-bottom: 8px;
+      color: #7e9a17;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .story-card h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.12;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+    }
+
+    .story-card h3 a {
+      transition: color 0.2s ease;
+    }
+
+    .story-card h3 a:hover {
+      color: #7e9a17;
+    }
+
+    .story-description {
+      margin-top: 11px;
+      color: #66635d;
+      font-size: 14px;
       line-height: 1.55;
     }
 
-    .section {
-      padding: 72px 0;
-      border-bottom: 1px solid #d9d6cc;
-    }
-
-    .section-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      gap: 30px;
-      margin-bottom: 36px;
-    }
-
-    .section-head h2 {
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-    }
-
-    .section-head span {
-      color: #7e9a17;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 17px;
-    }
-
-    .category-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      border-top: 1px solid #d9d6cc;
-    }
-
-    .category {
-      min-height: 190px;
-      padding: 34px 32px 34px 0;
-      border-bottom: 1px solid #d9d6cc;
-    }
-
-    .category:nth-child(odd) {
-      padding-right: 50px;
-      border-right: 1px solid #d9d6cc;
-    }
-
-    .category:nth-child(even) {
-      padding-left: 50px;
-    }
-
-    .category h3 {
-      font-size: 28px;
-      letter-spacing: -0.03em;
-      margin-bottom: 6px;
-    }
-
-    .category p {
-      color: #7e9a17;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 24px;
-      line-height: 1.2;
-    }
-
-    .category .desc {
-      margin-top: 18px;
-      color: #666;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      line-height: 1.6;
-    }
-
-    .category:hover h3 {
-      color: #7e9a17;
-    }
-
-    .featured-grid {
-      display: grid;
-      grid-template-columns: 1.4fr 0.8fr;
-      gap: 60px;
-    }
-
-    .featured-main {
-      border-top: 4px solid #111;
-      padding-top: 24px;
-    }
-
-    .label {
-      color: #7e9a17;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-size: 12px;
+    .story-date {
+      margin-top: 13px;
+      color: #999;
+      font-size: 10px;
       font-weight: 700;
-      margin-bottom: 16px;
-    }
-
-    .featured-main h3 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(34px, 4vw, 56px);
-      line-height: 1.08;
-      font-weight: 500;
-      letter-spacing: -0.03em;
-    }
-
-    .featured-main p {
-      margin-top: 18px;
-      color: #666;
-      font-size: 16px;
-      max-width: 650px;
-    }
-
-    .story-list {
-      border-top: 1px solid #111;
-    }
-
-    .story {
-      padding: 22px 0;
-      border-bottom: 1px solid #d9d6cc;
-    }
-
-    .story small {
-      color: #7e9a17;
-      text-transform: uppercase;
       letter-spacing: 0.08em;
-      font-weight: 700;
-    }
-
-    .story h4 {
-      margin-top: 6px;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 22px;
-      line-height: 1.25;
-      font-weight: 500;
-    }
-
-    .about {
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 70px;
-    }
-
-    .about h2 {
-      font-size: 13px;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
     }
 
-    .about p {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 25px;
-      line-height: 1.5;
+
+    /* =====================================================
+       ABOUT
+    ===================================================== */
+
+    .about-section {
+      border-top: 1px solid #d9d6cc;
+      padding: 72px 0 84px;
     }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 0.72fr 1.28fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .about-label {
+      color: #7e9a17;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .about-copy h2 {
+      max-width: 760px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(35px, 4.5vw, 58px);
+      line-height: 1.02;
+      font-weight: 500;
+      letter-spacing: -0.04em;
+    }
+
+    .about-copy p {
+      max-width: 700px;
+      margin-top: 24px;
+      color: #5f5d57;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 28px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #111;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .read-more:hover {
+      color: #7e9a17;
+      border-color: #7e9a17;
+    }
+
+
+    /* =====================================================
+       EMPTY STATE
+    ===================================================== */
+
+    .empty {
+      padding: 60px 0;
+      color: #777;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+    }
+
+
+    /* =====================================================
+       FOOTER
+    ===================================================== */
 
     footer {
+      border-top: 1px solid #d9d6cc;
       padding: 38px 0 50px;
-      font-size: 13px;
-      color: #666;
+      color: #68665f;
+      font-size: 12px;
     }
 
     .footer-inner {
@@ -266,145 +427,157 @@ layout: null
       gap: 30px;
     }
 
-    @media (max-width: 800px) {
-      .wrap {
-        width: min(100% - 32px, 700px);
-      }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-links a:hover {
+      color: #7e9a17;
+    }
+
+
+    /* =====================================================
+       TABLET
+    ===================================================== */
+
+    @media (max-width: 950px) {
 
       .header-inner {
-        min-height: auto;
-        padding: 22px 0;
         display: block;
+        padding: 21px 0 19px;
       }
 
       nav {
-        margin-top: 18px;
-        gap: 14px 18px;
+        justify-content: flex-start;
+        margin-top: 17px;
+        gap: 13px 18px;
       }
 
-      .hero {
-        padding: 65px 0 55px;
+      .cover-story {
+        grid-template-columns: 1.35fr 1fr;
+        gap: 35px;
       }
 
-      .hero p {
-        font-size: 18px;
+      .cover-title {
+        font-size: 39px;
       }
 
-      .category-grid,
-      .featured-grid,
-      .about {
+      .story-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .about-grid {
         grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+
+    /* =====================================================
+       MOBILE
+    ===================================================== */
+
+    @media (max-width: 680px) {
+
+      .wrap {
+        width: min(100% - 32px, 620px);
       }
 
-      .category {
-        padding: 30px 0 !important;
-        border-right: none !important;
+      .logo {
+        font-size: 28px;
       }
 
-      .category h3 {
-        font-size: 26px;
+      nav {
+        font-size: 10px;
       }
 
-      .category p {
-        font-size: 22px;
+      .intro {
+        padding: 34px 0 24px;
       }
 
-      .featured-grid,
-      .about {
-        gap: 45px;
+      .intro-line {
+        display: block;
       }
 
-      .section {
-        padding: 55px 0;
+      .intro-note {
+        margin-top: 8px;
+      }
+
+      .cover-section {
+        padding-bottom: 58px;
+      }
+
+      .cover-story,
+      .cover-story.no-cover-image {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding-top: 22px;
+      }
+
+      .cover-image img {
+        aspect-ratio: 16 / 10;
+      }
+
+      .cover-title,
+      .cover-story.no-cover-image .cover-title {
+        font-size: 39px;
+      }
+
+      .cover-description {
+        font-size: 16px;
+      }
+
+      .latest-section {
+        padding-bottom: 64px;
+      }
+
+      .story-grid {
+        grid-template-columns: 1fr;
+        row-gap: 44px;
+        padding-top: 22px;
+      }
+
+      .story-card h3 {
+        font-size: 27px;
+      }
+
+      .about-section {
+        padding: 54px 0 62px;
+      }
+
+      .about-copy h2 {
+        font-size: 38px;
       }
 
       .footer-inner {
         display: block;
       }
 
-      .footer-inner div + div {
-        margin-top: 8px;
+      .footer-links {
+        margin-top: 12px;
       }
     }
-.featured-main {
-  padding: 34px 0;
-  border-top: 1px solid #d9d6cc;
-  border-bottom: 1px solid #d9d6cc;
-}
 
-.featured-main-inner {
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 46px;
-  align-items: center;
-}
-
-.featured-image-link {
-  display: block;
-  width: 100%;
-}
-
-.featured-image-link img {
-  display: block;
-  width: 100%;
-  height: 240px;
-  object-fit: cover;
-}
-
-.featured-text .label {
-  margin-bottom: 14px;
-  color: #7e9a17;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.featured-text h3 {
-  margin: 0;
-  max-width: 700px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 46px;
-  line-height: 1.05;
-  font-weight: 500;
-  letter-spacing: -0.03em;
-}
-
-.featured-text h3 a:hover {
-  color: #7e9a17;
-}
-
-.featured-text p {
-  max-width: 680px;
-  margin-top: 18px;
-  color: #666;
-  font-size: 17px;
-  line-height: 1.6;
-}
-
-@media (max-width: 850px) {
-  .featured-main-inner {
-    grid-template-columns: 1fr;
-    gap: 26px;
-  }
-
-  .featured-image-link img {
-    height: auto;
-    aspect-ratio: 16 / 9;
-  }
-
-  .featured-text h3 {
-    font-size: 38px;
-  }
-}
   </style>
 </head>
 
+
 <body>
 
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
 <header>
+
   <div class="wrap header-inner">
-    <a href="/" class="logo">K-<span>pedia</span></a>
+
+    <a href="/" class="logo">
+      K-<span>pedia</span>
+    </a>
 
     <nav>
       <a href="/category/k-pop-news/">NEWS</a>
@@ -415,184 +588,279 @@ layout: null
       <a href="/category/k-pop-culture/">CULTURE</a>
       <a href="/category/k-pedia-files/">FILES</a>
     </nav>
+
   </div>
+
 </header>
 
-<main>
 
-  <section class="hero">
-    <div class="wrap">
-      <div class="eyebrow">The Korean Music Archive</div>
-      <h1>Korean music,<br>remembered differently.</h1>
-      <p>
-        K-pedia documents the songs, artists, moments, and cultural stories
-        that shaped Korean popular music — from forgotten records to today's K-pop.
-      </p>
+
+<!-- =====================================================
+     SMALL INTRO
+===================================================== -->
+
+<section class="intro">
+
+  <div class="wrap intro-line">
+
+    <div class="intro-title">
+      The Korean Music Archive
     </div>
-  </section>
 
-<section class="section">
+    <div class="intro-note">
+      More than K-pop
+    </div>
+
+  </div>
+
+</section>
+
+
+
+{% assign latest_posts = site.posts %}
+
+
+
+<!-- =====================================================
+     COVER STORY
+===================================================== -->
+
+<section class="cover-section">
+
   <div class="wrap">
 
-    <div class="section-head">
-      <h2>Featured</h2>
+    <div class="section-heading">
+      <h2>Cover Story</h2>
       <span>Latest from the archive</span>
     </div>
 
-    {% assign latest_posts = site.posts %}
 
     {% if latest_posts.size > 0 %}
 
       {% assign featured = latest_posts[0] %}
 
-      <div class="featured-grid">
 
-  <article class="featured-main">
+      <article class="cover-story {% unless featured.image %}no-cover-image{% endunless %}">
 
-  <div class="featured-main-inner">
 
-    {% if featured.image %}
-      <a href="{{ featured.url }}" class="featured-image-link">
-        <img src="{{ featured.image }}" alt="{{ featured.title }}">
-      </a>
-    {% endif %}
+        {% if featured.image %}
 
-    <div class="featured-text">
+          <a href="{{ featured.url }}" class="cover-image">
+            <img
+              src="{{ featured.image }}"
+              alt="{{ featured.title }}"
+            >
+          </a>
 
-      <div class="label">
-        {{ featured.category }}
-      </div>
-
-      <h3>
-        <a href="{{ featured.url }}">
-          {{ featured.title }}
-        </a>
-      </h3>
-
-      <p>
-        {% if featured.description %}
-          {{ featured.description }}
-        {% else %}
-          {{ featured.excerpt | strip_html | truncate: 200 }}
         {% endif %}
-      </p>
 
-    </div>
 
-  </div>
+        <div class="cover-copy">
 
-</article>
-        <div class="story-list">
+          <div class="category-label">
+            {{ featured.category }}
+          </div>
 
-          {% for post in latest_posts offset:1 limit:3 %}
+          <h1 class="cover-title">
+            <a href="{{ featured.url }}">
+              {{ featured.title }}
+            </a>
+          </h1>
 
-            <article class="story">
+          <div class="cover-description">
 
-              <small>
-                {{ post.category }}
-              </small>
+            {% if featured.description %}
 
-              <h4>
-                <a href="{{ post.url }}">
-                  {{ post.title }}
-                </a>
-              </h4>
+              {{ featured.description }}
 
-            </article>
+            {% else %}
 
-          {% endfor %}
+              {{ featured.excerpt | strip_html | truncate: 220 }}
+
+            {% endif %}
+
+          </div>
+
+          <div class="cover-date">
+            {{ featured.date | date: "%B %-d, %Y" }}
+          </div>
 
         </div>
 
-      </div>
+
+      </article>
+
 
     {% else %}
 
-      <p>No articles have been published yet.</p>
+      <div class="empty">
+        No articles have been published yet.
+      </div>
 
     {% endif %}
 
   </div>
+
 </section>
 
-  <section class="section">
-    <div class="wrap">
 
-      <div class="section-head">
-        <h2>Featured</h2>
-        <span>From the archive</span>
-      </div>
 
-      <div class="featured-grid">
+<!-- =====================================================
+     LATEST STORIES
+===================================================== -->
 
-        <article class="featured-main">
-          <div class="label">K-pop History</div>
-          <h3>The stories behind Korean popular music are bigger than the songs themselves.</h3>
-          <p>
-            K-pedia looks beyond charts and nostalgia to document how music,
-            television, fandom, technology, and social change shaped each era.
-          </p>
+{% if latest_posts.size > 1 %}
+
+<section class="latest-section">
+
+  <div class="wrap">
+
+    <div class="section-heading">
+      <h2>Latest Stories</h2>
+      <span>Recently published</span>
+    </div>
+
+
+    <div class="story-grid">
+
+      {% for post in latest_posts offset:1 limit:6 %}
+
+        <article class="story-card">
+
+
+          {% if post.image %}
+
+            <a href="{{ post.url }}" class="story-image">
+
+              <img
+                src="{{ post.image }}"
+                alt="{{ post.title }}"
+              >
+
+            </a>
+
+          {% endif %}
+
+
+          <div class="story-category">
+            {{ post.category }}
+          </div>
+
+
+          <h3>
+
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+
+          </h3>
+
+
+          <div class="story-description">
+
+            {% if post.description %}
+
+              {{ post.description | truncate: 145 }}
+
+            {% else %}
+
+              {{ post.excerpt | strip_html | truncate: 145 }}
+
+            {% endif %}
+
+          </div>
+
+
+          <div class="story-date">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+
+
         </article>
 
-        <div class="story-list">
+      {% endfor %}
 
-          <article class="story">
-            <small>Old K-pop Archive</small>
-            <h4>Rediscovering the artists who built K-pop</h4>
-          </article>
-
-          <article class="story">
-            <small>K-OST</small>
-            <h4>When a drama soundtrack becomes part of cultural memory</h4>
-          </article>
-
-          <article class="story">
-            <small>K-pedia Files</small>
-            <h4>The forgotten stories hidden inside Korean music history</h4>
-          </article>
-
-        </div>
-
-      </div>
     </div>
-  </section>
 
-  <section class="section">
-  <div class="wrap about">
-    <h2>About K-pedia</h2>
-    <div>
-      <p>
-        <strong>More than K-pop. The Story of Korean Popular Music.</strong><br><br>
-        K-pedia is an independent English-language archive documenting the
-        history, artists, industry, soundtracks, concerts, and culture of
-        Korean popular music. From legendary singers and forgotten records
-        to today's global K-pop scene, K-pedia explores the people and stories
-        that shaped Korean music across generations.
-      </p>
-
-      <p style="margin-top: 24px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
-        <a href="/about/" style="color: #7e9a17; font-weight: 700;">
-          Read more about K-pedia →
-        </a>
-      </p>
-    </div>
   </div>
+
 </section>
 
-</main>
+{% endif %}
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about-section">
+
+  <div class="wrap about-grid">
+
+    <div class="about-label">
+      About K-pedia
+    </div>
+
+
+    <div class="about-copy">
+
+      <h2>
+        More than K-pop.<br>
+        The Story of Korean Popular Music.
+      </h2>
+
+      <p>
+        K-pedia explores the artists, songs, stories and cultural moments
+        that shaped Korean popular music — from earlier generations of
+        Korean pop to the global K-pop era.
+      </p>
+
+      <a href="/about/" class="read-more">
+        Read More
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
+
   <div class="wrap footer-inner">
+
     <div>
       © 2026 K-pedia. The Korean Music Archive.
     </div>
 
-    <div>
-      <a href="/about/">About</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="/privacy-policy/">Privacy Policy</a>
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      <a href="/contact/">Get in Touch</a>
+
+    <div class="footer-links">
+
+      <a href="/about/">
+        About
+      </a>
+
+      <a href="/privacy-policy/">
+        Privacy Policy
+      </a>
+
+      <a href="/contact/">
+        Get in Touch
+      </a>
+
     </div>
+
   </div>
+
 </footer>
+
+
+</body>
+</html>
