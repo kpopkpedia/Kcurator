@@ -1,16 +1,8 @@
-{% assign video_id = include.url %}
-
-{% if include.url contains 'youtu.be/' %}
-  {% assign video_id = include.url | split: 'youtu.be/' | last | split: '?' | first %}
-{% elsif include.url contains 'watch?v=' %}
-  {% assign video_id = include.url | split: 'watch?v=' | last | split: '&' | first %}
-{% elsif include.url contains '/embed/' %}
-  {% assign video_id = include.url | split: '/embed/' | last | split: '?' | first %}
-{% endif %}
+{% assign video_id = include.url | split: 'v=' | last | split: '&' | first %}
 
 <div class="video-block">
   {% if include.title %}
-    <div class="video-title">🎥 Recommended Watch: {{ include.title }}</div>
+  <div class="video-title">🎥 Recommended Watch: {{ include.title }}</div>
   {% endif %}
 
   <div class="video-container">
@@ -18,7 +10,6 @@
       src="https://www.youtube.com/embed/{{ video_id }}"
       title="{{ include.title | escape }}"
       loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen>
     </iframe>
