@@ -307,63 +307,78 @@ layout: null
     }
 
 
-    /* =========================
-       ABOUT
-    ========================= */
+   /* =========================
+   ABOUT
+========================= */
 
-    .about-section {
-      border-top: 1px solid #d9d6cc;
-      padding: 70px 0 82px;
-    }
+.about-section {
+  border-top: 1px solid #d9d6cc;
+  padding: 42px 0 48px;
+}
 
-    .about-grid {
-      display: grid;
-      grid-template-columns: 0.6fr 1.4fr;
-      gap: 70px;
-      align-items: start;
-    }
+.about-compact {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 720px);
+  gap: 48px;
+  align-items: start;
+}
 
-    .about-label {
-      color: #7e9a17;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
+.about-label {
+  padding-top: 4px;
+  color: #7e9a17;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 
-    .about-copy h2 {
-      max-width: 760px;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(34px, 4vw, 54px);
-      line-height: 1.05;
-      font-weight: 500;
-      letter-spacing: -0.035em;
-    }
+.about-copy h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
 
-    .about-copy p {
-      max-width: 700px;
-      margin-top: 22px;
-      color: #666;
-      font-size: 16px;
-      line-height: 1.7;
-    }
+.about-copy p {
+  max-width: 680px;
+  margin-top: 12px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.65;
+}
 
-    .read-more {
-      display: inline-block;
-      margin-top: 26px;
-      padding-bottom: 3px;
-      border-bottom: 1px solid #111;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
+.read-more {
+  display: inline-block;
+  margin-top: 16px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #111;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 
-    .read-more:hover {
-      color: #7e9a17;
-      border-color: #7e9a17;
-    }
+.read-more:hover {
+  color: #7e9a17;
+  border-color: #7e9a17;
+}
 
+@media (max-width: 680px) {
+  .about-section {
+    padding: 34px 0 40px;
+  }
+
+  .about-compact {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .about-copy h2 {
+    font-size: 22px;
+  }
+}
 
     /* =========================
        EMPTY
@@ -753,19 +768,16 @@ layout: null
 
 <section class="about-section">
 
-  <div class="wrap about-grid">
-
+  <div class="wrap about-compact">
 
     <div class="about-label">
       About K-pedia
     </div>
 
-
     <div class="about-copy">
 
       <h2>
-        More than K-pop.<br>
-        The Story of Korean Popular Music.
+        More than K-pop. The Story of Korean Popular Music.
       </h2>
 
       <p>
@@ -780,12 +792,9 @@ layout: null
 
     </div>
 
-
   </div>
 
 </section>
-
-
 <!-- FOOTER -->
 
 <footer>
