@@ -377,7 +377,11 @@ layout: null
       <div class="featured-grid">
 
         <article class="featured-main">
-
+{% if featured.image %}
+  <a href="{{ featured.url }}" class="featured-image-link">
+    <img src="{{ featured.image }}" alt="{{ featured.title }}">
+  </a>
+{% endif %}
           <div class="label">
             {{ featured.category }}
           </div>
