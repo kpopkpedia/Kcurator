@@ -56,8 +56,6 @@ That is why the song continues to be remembered as one of the defining musical r
 
 # More Than One Hit Song
 
-Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)
-
 {% include youtube.html url="https://www.youtube.com/watch?v=mfjr7JkoNes" title="Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
 lthough many people remember Kim Min-woo for **"It's Only Love,"** his musical legacy extends much further.
 
