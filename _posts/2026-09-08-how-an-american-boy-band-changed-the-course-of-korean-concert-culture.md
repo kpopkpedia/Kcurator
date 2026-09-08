@@ -43,7 +43,7 @@ To many adults, however, the phenomenon appeared unfamiliar and unsettling. Cont
 
 # 17 February 1992: A Concert Turns Into Disaster
 
-🎥 Source: KBS News 9 (Feb 18, 1992) | "NKOTB Concert Tragedy"
+{% include kbs-video.html url="https://news.kbs.co.kr/news/pc/view/embedVideo.do?vodUrl=/newsmp4/news9_history/1992/19920218/1500K_new/210.mp4&imgUrl=https://news.kbs.co.kr/data/fckeditor/vod/multi/kbs9/1992/19920218/1500K_new/210.jpg&captionYn=N" title='🎥 Source: KBS News 9 (Feb 18, 1992) | "NKOTB Concert Tragedy"' iframe_title="KBS News 9" %}
 
 The concert took place at Seoul's Olympic Gymnastics Arena before a crowd of approximately **15,000–16,000** people. As the performance began, large numbers of excited fans surged toward the stage, causing people near the front to fall and become trapped beneath the pressure of the crowd.
 
