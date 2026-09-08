@@ -1,6 +1,6 @@
 ---
 title: "The Evolution of Korean Drama OSTs "
-date: 2026-09-08 02:56:00
+date: 2026-08-06 10:00:00
 category: K-OST
 description: Explore the history and evolution of Korean drama OSTs, from 1990s
   classic soundtracks to modern global hits that define K-drama storytelling.
@@ -68,7 +68,7 @@ They shaped fashion trends, launched acting careers, influenced advertising, and
 
 # When One Song Defined an Entire Drama
 
-{% include youtube.html url="https://www.youtube.com/watch?v=zB6g57JFblo" title='Star in My Heart OST - Ahn Jae Wook - "Forever" M/V (1997)' %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=zB6g57JFblo](https://www.youtube.com/watch?v=zB6g57JFblo)" title='Star in My Heart OST - Ahn Jae Wook - "Forever" M/V (1997)' %}
 Throughout the 1990s, Korean dramas were typically remembered through one defining piece of music.
 
 Sometimes it was an original Korean song written specifically for the series.
