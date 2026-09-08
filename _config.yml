@@ -1,0 +1,12 @@
+title: K-pedia
+description: The Korean Music Archive
+url: "https://www.kcurator.com"
+baseurl: ""
+
+permalink: /:year/:month/:title/
+timezone: America/Vancouver
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
