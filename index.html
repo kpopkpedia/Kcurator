@@ -20,18 +20,14 @@ layout: null
 
   <style>
 
-    /* =====================================================
+    /* =========================
        BASE
-    ===================================================== */
+    ========================= */
 
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
     }
 
     body {
@@ -51,37 +47,36 @@ layout: null
     }
 
     .wrap {
-      width: min(1180px, calc(100% - 48px));
+      width: min(1180px, calc(100% - 40px));
       margin: 0 auto;
     }
 
 
-    /* =====================================================
+    /* =========================
        HEADER
-    ===================================================== */
+    ========================= */
 
     header {
       border-bottom: 1px solid #d9d6cc;
       background: rgba(247, 245, 239, 0.97);
       position: sticky;
       top: 0;
-      z-index: 20;
+      z-index: 10;
     }
 
     .header-inner {
-      min-height: 84px;
+      min-height: 82px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 36px;
+      gap: 30px;
     }
 
     .logo {
-      flex-shrink: 0;
-      font-size: 31px;
+      font-size: 30px;
       font-weight: 800;
-      line-height: 1;
-      letter-spacing: -1.4px;
+      letter-spacing: -1px;
+      flex-shrink: 0;
     }
 
     .logo span {
@@ -90,17 +85,11 @@ layout: null
 
     nav {
       display: flex;
-      align-items: center;
-      justify-content: flex-end;
       flex-wrap: wrap;
       gap: 22px;
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.045em;
-    }
-
-    nav a {
-      transition: color 0.2s ease;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
     }
 
     nav a:hover {
@@ -108,170 +97,158 @@ layout: null
     }
 
 
-    /* =====================================================
+    /* =========================
        INTRO
-    ===================================================== */
+    ========================= */
 
     .intro {
-      padding: 50px 0 32px;
+      padding: 48px 0 30px;
     }
 
-    .intro-line {
+    .intro-inner {
       display: flex;
       justify-content: space-between;
-      align-items: end;
-      gap: 40px;
+      align-items: center;
+      gap: 30px;
     }
 
-    .intro-title {
+    .archive-name {
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 17px;
-      font-weight: 400;
       color: #555;
+      font-size: 16px;
     }
 
-    .intro-note {
+    .archive-note {
+      color: #7e9a17;
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.14em;
-      color: #7e9a17;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
 
-    /* =====================================================
-       SECTION HEADINGS
-    ===================================================== */
+    /* =========================
+       SECTION HEAD
+    ========================= */
 
-    .section-heading {
+    .section-head {
       display: flex;
       justify-content: space-between;
       align-items: end;
       gap: 20px;
-      padding-bottom: 13px;
-      border-bottom: 1px solid #111;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #111;
     }
 
-    .section-heading h2 {
+    .section-head h2 {
       font-size: 13px;
-      font-weight: 800;
-      letter-spacing: 0.13em;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
     }
 
-    .section-heading span {
-      color: #888;
+    .section-head span {
+      color: #777;
       font-family: Georgia, "Times New Roman", serif;
       font-size: 13px;
       font-style: italic;
     }
 
 
-   /* =====================================================
-   COVER STORY
-===================================================== */
+    /* =========================
+       COVER STORY
+    ========================= */
 
-.cover-section {
-  padding-bottom: 76px;
-}
+    .cover-section {
+      padding-bottom: 76px;
+    }
 
-.cover-story {
-  display: grid;
-  grid-template-columns: 42% 1fr;
-  gap: 56px;
-  padding-top: 34px;
-  align-items: center;
-}
+    .cover-story {
+      display: grid;
+      grid-template-columns: 42% minmax(0, 1fr);
+      gap: 54px;
+      align-items: center;
+      padding-top: 32px;
+    }
 
-.cover-image {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-  background: #e8e5dc;
-}
+    .cover-image {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      background: #ebe8df;
+    }
 
-.cover-image img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  transition: transform 0.35s ease;
-}
+    .cover-image img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+    }
 
-.cover-image:hover img {
-  transform: scale(1.015);
-}
+    .cover-copy {
+      min-width: 0;
+      max-width: 650px;
+    }
 
-.cover-copy {
-  min-width: 0;
-  max-width: 650px;
-}
+    .category-label {
+      margin-bottom: 12px;
+      color: #7e9a17;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
 
-.category-label {
-  margin-bottom: 14px;
-  color: #7e9a17;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
+    .cover-title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 3.3vw, 48px);
+      line-height: 1.06;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
 
-.cover-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(34px, 3.3vw, 48px);
-  line-height: 1.06;
-  font-weight: 500;
-  letter-spacing: -0.035em;
-}
+    .cover-title a:hover {
+      color: #7e9a17;
+    }
 
-.cover-title a {
-  transition: color 0.2s ease;
-}
+    .cover-description {
+      max-width: 620px;
+      margin-top: 18px;
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+    }
 
-.cover-title a:hover {
-  color: #7e9a17;
-}
+    .cover-date {
+      margin-top: 18px;
+      color: #888;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
 
-.cover-description {
-  margin-top: 20px;
-  max-width: 620px;
-  color: #5f5d57;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 16px;
-  line-height: 1.65;
-}
+    .cover-story.no-image {
+      grid-template-columns: minmax(0, 800px);
+    }
 
-.cover-date {
-  margin-top: 20px;
-  color: #888;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.cover-story.no-cover-image {
-  grid-template-columns: minmax(0, 850px);
-}
-
-.cover-story.no-cover-image .cover-title {
-  font-size: clamp(40px, 5vw, 62px);
-}
+    .cover-story.no-image .cover-title {
+      font-size: clamp(40px, 5vw, 62px);
+    }
 
 
-    /* =====================================================
+    /* =========================
        LATEST STORIES
-    ===================================================== */
+    ========================= */
 
     .latest-section {
-      padding-bottom: 88px;
+      padding-bottom: 86px;
     }
 
     .story-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      column-gap: 32px;
-      row-gap: 54px;
+      gap: 50px 30px;
       padding-top: 30px;
     }
 
@@ -281,9 +258,9 @@ layout: null
 
     .story-image {
       display: block;
-      margin-bottom: 18px;
+      margin-bottom: 17px;
       overflow: hidden;
-      background: #e8e5dc;
+      background: #ebe8df;
     }
 
     .story-image img {
@@ -291,32 +268,23 @@ layout: null
       width: 100%;
       aspect-ratio: 16 / 10;
       object-fit: cover;
-      transition: transform 0.3s ease;
-    }
-
-    .story-image:hover img {
-      transform: scale(1.02);
     }
 
     .story-category {
       margin-bottom: 8px;
       color: #7e9a17;
       font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.13em;
+      font-weight: 700;
+      letter-spacing: 0.11em;
       text-transform: uppercase;
     }
 
     .story-card h3 {
       font-family: Georgia, "Times New Roman", serif;
       font-size: 25px;
-      line-height: 1.12;
+      line-height: 1.15;
       font-weight: 500;
-      letter-spacing: -0.025em;
-    }
-
-    .story-card h3 a {
-      transition: color 0.2s ease;
+      letter-spacing: -0.02em;
     }
 
     .story-card h3 a:hover {
@@ -325,7 +293,7 @@ layout: null
 
     .story-description {
       margin-top: 11px;
-      color: #66635d;
+      color: #666;
       font-size: 14px;
       line-height: 1.55;
     }
@@ -334,63 +302,61 @@ layout: null
       margin-top: 13px;
       color: #999;
       font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.07em;
       text-transform: uppercase;
     }
 
 
-    /* =====================================================
+    /* =========================
        ABOUT
-    ===================================================== */
+    ========================= */
 
     .about-section {
       border-top: 1px solid #d9d6cc;
-      padding: 72px 0 84px;
+      padding: 70px 0 82px;
     }
 
     .about-grid {
       display: grid;
-      grid-template-columns: 0.72fr 1.28fr;
-      gap: 80px;
+      grid-template-columns: 0.6fr 1.4fr;
+      gap: 70px;
       align-items: start;
     }
 
     .about-label {
       color: #7e9a17;
       font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
+      font-weight: 700;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
     .about-copy h2 {
       max-width: 760px;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(35px, 4.5vw, 58px);
-      line-height: 1.02;
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1.05;
       font-weight: 500;
-      letter-spacing: -0.04em;
+      letter-spacing: -0.035em;
     }
 
     .about-copy p {
       max-width: 700px;
-      margin-top: 24px;
-      color: #5f5d57;
+      margin-top: 22px;
+      color: #666;
       font-size: 16px;
       line-height: 1.7;
     }
 
     .read-more {
       display: inline-block;
-      margin-top: 28px;
-      padding-bottom: 4px;
+      margin-top: 26px;
+      padding-bottom: 3px;
       border-bottom: 1px solid #111;
       font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      transition: color 0.2s ease, border-color 0.2s ease;
     }
 
     .read-more:hover {
@@ -399,27 +365,27 @@ layout: null
     }
 
 
-    /* =====================================================
-       EMPTY STATE
-    ===================================================== */
+    /* =========================
+       EMPTY
+    ========================= */
 
     .empty {
-      padding: 60px 0;
+      padding: 50px 0;
       color: #777;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 20px;
+      font-size: 18px;
     }
 
 
-    /* =====================================================
+    /* =========================
        FOOTER
-    ===================================================== */
+    ========================= */
 
     footer {
       border-top: 1px solid #d9d6cc;
       padding: 38px 0 50px;
-      color: #68665f;
-      font-size: 12px;
+      color: #666;
+      font-size: 13px;
     }
 
     .footer-inner {
@@ -439,30 +405,30 @@ layout: null
     }
 
 
-    /* =====================================================
+    /* =========================
        TABLET
-    ===================================================== */
+    ========================= */
 
-    @media (max-width: 950px) {
+    @media (max-width: 900px) {
 
       .header-inner {
+        min-height: auto;
         display: block;
-        padding: 21px 0 19px;
+        padding: 20px 0;
       }
 
       nav {
-        justify-content: flex-start;
-        margin-top: 17px;
-        gap: 13px 18px;
+        margin-top: 16px;
+        gap: 14px 18px;
       }
 
       .cover-story {
-        grid-template-columns: 1.35fr 1fr;
-        gap: 35px;
+        grid-template-columns: 44% minmax(0, 1fr);
+        gap: 34px;
       }
 
       .cover-title {
-        font-size: 39px;
+        font-size: 36px;
       }
 
       .story-grid {
@@ -471,14 +437,14 @@ layout: null
 
       .about-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 20px;
       }
     }
 
 
-    /* =====================================================
+    /* =========================
        MOBILE
-    ===================================================== */
+    ========================= */
 
     @media (max-width: 680px) {
 
@@ -486,70 +452,58 @@ layout: null
         width: min(100% - 32px, 620px);
       }
 
-      .logo {
-        font-size: 28px;
-      }
-
-      nav {
-        font-size: 10px;
-      }
-
       .intro {
-        padding: 34px 0 24px;
+        padding: 32px 0 22px;
       }
 
-      .intro-line {
+      .intro-inner {
         display: block;
       }
 
-      .intro-note {
-        margin-top: 8px;
+      .archive-note {
+        margin-top: 5px;
       }
 
       .cover-section {
-        padding-bottom: 58px;
+        padding-bottom: 56px;
       }
 
       .cover-story,
-      .cover-story.no-cover-image {
+      .cover-story.no-image {
         grid-template-columns: 1fr;
-        gap: 25px;
+        gap: 24px;
         padding-top: 22px;
       }
 
-      .cover-image img {
-        aspect-ratio: 16 / 10;
-      }
-
       .cover-title,
-      .cover-story.no-cover-image .cover-title {
-        font-size: 39px;
+      .cover-story.no-image .cover-title {
+        font-size: 36px;
       }
 
       .cover-description {
-        font-size: 16px;
+        font-size: 15px;
       }
 
       .latest-section {
-        padding-bottom: 64px;
+        padding-bottom: 60px;
       }
 
       .story-grid {
         grid-template-columns: 1fr;
-        row-gap: 44px;
+        gap: 42px;
         padding-top: 22px;
       }
 
       .story-card h3 {
-        font-size: 27px;
+        font-size: 26px;
       }
 
       .about-section {
-        padding: 54px 0 62px;
+        padding: 52px 0 60px;
       }
 
       .about-copy h2 {
-        font-size: 38px;
+        font-size: 36px;
       }
 
       .footer-inner {
@@ -557,20 +511,18 @@ layout: null
       }
 
       .footer-links {
-        margin-top: 12px;
+        margin-top: 10px;
       }
     }
 
   </style>
-</head>
 
+</head>
 
 <body>
 
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
+<!-- HEADER -->
 
 <header>
 
@@ -595,20 +547,17 @@ layout: null
 </header>
 
 
-
-<!-- =====================================================
-     SMALL INTRO
-===================================================== -->
+<!-- INTRO -->
 
 <section class="intro">
 
-  <div class="wrap intro-line">
+  <div class="wrap intro-inner">
 
-    <div class="intro-title">
+    <div class="archive-name">
       The Korean Music Archive
     </div>
 
-    <div class="intro-note">
+    <div class="archive-note">
       More than K-pop
     </div>
 
@@ -617,22 +566,21 @@ layout: null
 </section>
 
 
-
 {% assign latest_posts = site.posts %}
 
 
-
-<!-- =====================================================
-     COVER STORY
-===================================================== -->
+<!-- COVER STORY -->
 
 <section class="cover-section">
 
   <div class="wrap">
 
-    <div class="section-heading">
+    <div class="section-head">
+
       <h2>Cover Story</h2>
+
       <span>Latest from the archive</span>
+
     </div>
 
 
@@ -641,16 +589,18 @@ layout: null
       {% assign featured = latest_posts[0] %}
 
 
-      <article class="cover-story {% unless featured.image %}no-cover-image{% endunless %}">
+      <article class="cover-story {% unless featured.image %}no-image{% endunless %}">
 
 
         {% if featured.image %}
 
           <a href="{{ featured.url }}" class="cover-image">
+
             <img
               src="{{ featured.image }}"
               alt="{{ featured.title }}"
             >
+
           </a>
 
         {% endif %}
@@ -662,11 +612,15 @@ layout: null
             {{ featured.category }}
           </div>
 
+
           <h1 class="cover-title">
+
             <a href="{{ featured.url }}">
               {{ featured.title }}
             </a>
+
           </h1>
+
 
           <div class="cover-description">
 
@@ -676,11 +630,12 @@ layout: null
 
             {% else %}
 
-              {{ featured.excerpt | strip_html | truncate: 220 }}
+              {{ featured.excerpt | strip_html | truncate: 200 }}
 
             {% endif %}
 
           </div>
+
 
           <div class="cover-date">
             {{ featured.date | date: "%B %-d, %Y" }}
@@ -705,10 +660,7 @@ layout: null
 </section>
 
 
-
-<!-- =====================================================
-     LATEST STORIES
-===================================================== -->
+<!-- LATEST STORIES -->
 
 {% if latest_posts.size > 1 %}
 
@@ -716,15 +668,20 @@ layout: null
 
   <div class="wrap">
 
-    <div class="section-heading">
+    <div class="section-head">
+
       <h2>Latest Stories</h2>
+
       <span>Recently published</span>
+
     </div>
 
 
     <div class="story-grid">
 
+
       {% for post in latest_posts offset:1 limit:6 %}
+
 
         <article class="story-card">
 
@@ -779,7 +736,9 @@ layout: null
 
         </article>
 
+
       {% endfor %}
+
 
     </div>
 
@@ -790,14 +749,12 @@ layout: null
 {% endif %}
 
 
-
-<!-- =====================================================
-     ABOUT
-===================================================== -->
+<!-- ABOUT -->
 
 <section class="about-section">
 
   <div class="wrap about-grid">
+
 
     <div class="about-label">
       About K-pedia
@@ -823,19 +780,18 @@ layout: null
 
     </div>
 
+
   </div>
 
 </section>
 
 
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
+<!-- FOOTER -->
 
 <footer>
 
   <div class="wrap footer-inner">
+
 
     <div>
       © 2026 K-pedia. The Korean Music Archive.
@@ -857,6 +813,7 @@ layout: null
       </a>
 
     </div>
+
 
   </div>
 
