@@ -167,95 +167,96 @@ layout: null
     }
 
 
-    /* =====================================================
-       COVER STORY
-    ===================================================== */
+   /* =====================================================
+   COVER STORY
+===================================================== */
 
-    .cover-section {
-      padding-bottom: 76px;
-    }
+.cover-section {
+  padding-bottom: 76px;
+}
 
-    .cover-story {
-      display: grid;
-      grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.85fr);
-      gap: 54px;
-      padding-top: 30px;
-      align-items: center;
-    }
+.cover-story {
+  display: grid;
+  grid-template-columns: 42% 1fr;
+  gap: 56px;
+  padding-top: 34px;
+  align-items: center;
+}
 
-    .cover-image {
-      display: block;
-      width: 100%;
-      overflow: hidden;
-      background: #e8e5dc;
-    }
+.cover-image {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background: #e8e5dc;
+}
 
-    .cover-image img {
-      display: block;
-      width: 100%;
-      aspect-ratio: 16 / 10;
-      object-fit: cover;
-      transition: transform 0.35s ease;
-    }
+.cover-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
 
-    .cover-image:hover img {
-      transform: scale(1.015);
-    }
+.cover-image:hover img {
+  transform: scale(1.015);
+}
 
-    .cover-copy {
-      min-width: 0;
-    }
+.cover-copy {
+  min-width: 0;
+  max-width: 650px;
+}
 
-    .category-label {
-      margin-bottom: 14px;
-      color: #7e9a17;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
+.category-label {
+  margin-bottom: 14px;
+  color: #7e9a17;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
 
-    .cover-title {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(38px, 4.2vw, 60px);
-      line-height: 0.99;
-      font-weight: 500;
-      letter-spacing: -0.045em;
-    }
+.cover-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(34px, 3.3vw, 48px);
+  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
 
-    .cover-title a {
-      transition: color 0.2s ease;
-    }
+.cover-title a {
+  transition: color 0.2s ease;
+}
 
-    .cover-title a:hover {
-      color: #7e9a17;
-    }
+.cover-title a:hover {
+  color: #7e9a17;
+}
 
-    .cover-description {
-      margin-top: 22px;
-      max-width: 540px;
-      color: #5f5d57;
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 17px;
-      line-height: 1.62;
-    }
+.cover-description {
+  margin-top: 20px;
+  max-width: 620px;
+  color: #5f5d57;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
 
-    .cover-date {
-      margin-top: 22px;
-      color: #888;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
+.cover-date {
+  margin-top: 20px;
+  color: #888;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 
-    .cover-story.no-cover-image {
-      grid-template-columns: minmax(0, 850px);
-    }
+.cover-story.no-cover-image {
+  grid-template-columns: minmax(0, 850px);
+}
 
-    .cover-story.no-cover-image .cover-title {
-      font-size: clamp(46px, 6vw, 76px);
-    }
+.cover-story.no-cover-image .cover-title {
+  font-size: clamp(40px, 5vw, 62px);
+}
 
 
     /* =====================================================
