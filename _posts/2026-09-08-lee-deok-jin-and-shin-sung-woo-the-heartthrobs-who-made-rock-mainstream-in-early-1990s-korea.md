@@ -93,9 +93,8 @@ Their careers serve as a reminder that the foundations of modern K-pop were buil
 
 ## Recommended Videos
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=L-QBh1UGV9A](https://www.youtube.com/watch?v=L-QBh1UGV9A)" title='Lee Deok-jin - "One Thing I Know" | KBS2 Saturday Night Show (September 5, 1992)' %}
+{% include youtube.html url="https://www.youtube.com/watch?v=L-QBh1UGV9A" title='Lee Deok-jin - "One Thing I Know" | KBS2 Saturday Night Show (September 5, 1992)' %}
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=S6Df2d8TTNo](https://www.youtube.com/watch?v=S6Df2d8TTNo)" title='Shin Sung-woo – "Towards Tomorrow" | KBS2 Gayo Top 10 (1992)' %}
+{% include youtube.html url="https://www.youtube.com/watch?v=S6Df2d8TTNo" title='Shin Sung-woo – "Towards Tomorrow" | KBS2 Gayo Top 10 (1992)' %}
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=ZeylX1OIw8g](https://www.youtube.com/watch?v=ZeylX1OIw8g)" title='Shin Sung-woo – "Prologue" | KBS2 Gayo Top 10 (August 10, 1994)' %}
-
+{% include youtube.html url="https://www.youtube.com/watch?v=ZeylX1OIw8g" title='Shin Sung-woo – "Prologue" | KBS2 Gayo Top 10 (August 10, 1994)' %}
