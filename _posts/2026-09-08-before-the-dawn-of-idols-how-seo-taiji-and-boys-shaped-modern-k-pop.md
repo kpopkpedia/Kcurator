@@ -80,8 +80,7 @@ Their music demonstrated that commercial success and meaningful social commentar
 
 ## Popularizing the Modern Comeback Cycle
 
-🎥 Recommended Watch: Seotaiji and Boys - "Come Back Home" M/V
-
+{% include youtube.html url="https://www.youtube.com/watch?v=q3xy4p2JTfU" title='Seotaiji and Boys - "Come Back Home" M/V' %}
 One of Seo Taiji's most lasting contributions was changing how artists promoted new music.
 
 At the time, Korean musicians were generally expected to appear continuously on television and radio while simultaneously preparing their next releases, leaving little time for creative development.
