@@ -6,7 +6,7 @@ description: Discover how Seo Taiji and Boys revolutionized the Korean music
   industry in 1992, shifting pop culture toward youth and laying the groundwork
   for modern K-pop.
 permalink: 2026/07/before-dawn-of-idols-how-seo-taiji-and.html
-image: /assets/images/seotaijiboysalbum.jpg
+image: /assets/images/seotaijiboysalbum-1.jpg
 ---
 # Seo Taiji and Boys: The Group That Changed Korean Music Forever
 
