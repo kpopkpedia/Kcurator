@@ -41,7 +41,7 @@ Fans can expect a career-spanning setlist featuring many of MONSTA X's biggest h
 
 ### Why This Tour Matters
 
-{% include youtube.html url="https://www.youtube.com/watch?v=oqHCkjoLH4Y" title="2026 MONSTA X WORLD TOUR THE X : NEXUS IN SEOUL #2" %}
+🎥 [Recommended Watch: 2026 MONSTA X WORLD TOUR THE X : NEXUS IN SEOUL #2](https://www.youtube.com/watch?v=oqHCkjoLH4Y)
 
 Since making its North American touring debut, MONSTA X has established itself as one of K-pop's most reliable live acts, earning recognition for powerful vocals, dynamic rap performances, synchronized choreography, and energetic stage production. The group's repeated tours across the region have helped build a dedicated international fanbase that has continued to support each new era.
 
