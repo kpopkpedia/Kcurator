@@ -20,7 +20,7 @@ Before Seo Taiji transformed the industry, a very different musical landscape do
 
 # The Era of Music You Listened To
 
-![Shin Seung-hun](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU5asBbf27KsLp-QMwYN9F0esSSoIkkaqLUfFj2cU8AP8qMbOM-TCYzw1VkTKM1mpYe5Mnisbuy6skllWsFYD2lvHWQj2EBV6TQlkpglSOvNImcVYxPImOvppJYJmWSiD95SyN3RvLbhVCATokXHnFL9bGHcPzjYYX0CA6pN-i3mR0h_GrEa6-ZCtKlU8E/w400-h400/Shinseunghun.jpg)
+![](/assets/images/shinseunghun.jpg)
 
 From the late 1980s to the early 1990s, Korean popular music was defined by **ballads**, **melodic rock**, and **band music**.
 
@@ -42,9 +42,21 @@ They didn't create K-pop as we know it today, but they prepared Korean audiences
 
 ## Sobangcha (1987)
 
-🎥 Recommended Watch: Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988
+<div class="video-block">
+  <div class="video-title">
+    🎥 Recommended Watch: Sobangcha - Last Night Story (Show Tokkup) | KBS Broadcast on April 16, 1988
+  </div>
 
-![](https://img1.blogblog.com/img/widget_object.png)
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com//embed/YWinmON-Cdg"
+      title="Sobangcha - Last Night Story"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
 Debuting in 1987, **Sobangcha (소방차)** became one of Korea's earliest performance-oriented male groups. Rather than standing still while singing, they filled the stage with synchronized choreography, energetic movement, and acrobatic performances.
 
@@ -54,7 +66,7 @@ Sobangcha also experienced several lineup changes during its active years. While
 
 ## Setorae (1988)
 
-![Setorae](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmSjy19mMJ67cYzS2palKwkGGOwc4jmX5yUetlCDewwzZKh_aqOCjQbyZm4KPJtVcV7XNIFg-wpCvAsw-WvhD-4mr8qo-cipLeltqGFiIpJ9WFNS6QAyvPcTf2FpDbcIQTXQezAcFzJ_BN2rQjguD3QphA5wasUoE8DO-Bs5v_nTkgPbAbU7ayhlabHqMG/w393-h400/Setorae.jpg)
+![](/assets/images/setorae.jpg)
 
 **Setorae (세또래)** was among Korea's earliest planned female pop groups.
 
@@ -68,9 +80,21 @@ While groups were beginning to experiment with performance, several solo artists
 
 ### Kim Wan-sun
 
-🎥 Recommended Watch: Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast
+<div class="video-block">
+  <div class="video-title">
+    🎥 Recommended Watch: Kim Wansun Stage Compilation (1986-1993) | KBS Broadcast
+  </div>
 
-![](https://img1.blogblog.com/img/widget_object.png)
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com//embed/uEmJ-7wTLI8"
+      title="Kim Wansun Stage Compilation"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
 
 Often called **"Korea's Madonna,"** Kim Wan-sun helped redefine the role of a female pop artist.
 
@@ -78,7 +102,7 @@ With years of professional dance training before her debut, she combined sophist
 
 ### Park Nam-jung
 
-![Park Nam-jung](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicXQQ4ShU4kpidhjbjX2qz-R-DYqA87oHG1IqqaswXzM8x5ipX_qFfsHZHJaTnssAtr0FQd1gvuiuKs7hEIjY5Ob45YyDSKGIOWyZGvnjP0lF3DuHTZ9_M4pH7gK8Dc_Pa6jc3G00aM96DqMye3TJHgReuQ_NY_mYg7RuZ79JvloOFS-KfuoEnxTyb4Q18/w273-h400/ParkNam-jung.jpg)
+![](/assets/images/parknam-jung.jpg)
 
 He is also famous for being the father of Sieun from the 4th-generation K-pop girl group STAYC.
 
