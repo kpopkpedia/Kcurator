@@ -66,7 +66,7 @@ Back then, we didn't have smartphones or social media. If you wanted to know you
 
 # 2nd Generation (2003–2011): K-pop Crosses Borders
 
-🎥 Recommended Watch: Girls' Generation (SNSD) - "Gee" M/V
+{% include youtube.html url="https://www.youtube.com/watch?v=U7mPqycQ0tQ" title='Girls’ Generation (SNSD) - "Gee" M/V' %}
 
 One of the most viral and era-defining hook songs of the 2nd Generation.
 
