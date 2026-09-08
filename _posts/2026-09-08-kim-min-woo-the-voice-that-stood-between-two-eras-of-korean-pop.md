@@ -1,6 +1,6 @@
 ---
 title: "Kim Min-woo: The Voice That Stood Between Two Eras of Korean Pop"
-date: 2026-09-08 03:01:00
+date: 2026-08-07 10:00:00
 category: Curator's Choice
 description: Discover the story of Kim Min-woo, the legendary 1990 Korean ballad
   singer who swept the charts with iconic hits like "It's Only Love" and "On the
@@ -20,7 +20,7 @@ Kim Min-woo's story is not simply one of fame interrupted. It is the story of an
 
 # A Meteoric Debut
 
-{% include youtube.html url="https://www.youtube.com/watch?v=ObXOb6Oo3fQ" title="Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)" %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=ObXOb6Oo3fQ](https://www.youtube.com/watch?v=ObXOb6Oo3fQ)" title="Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)" %}
 Kim Min-woo made his debut in February 1990 with his first full-length album.
 
 At the time, he was virtually unknown. Within months, however, he had become one of Korea's most celebrated new singers.
@@ -35,7 +35,7 @@ Songs such as **"It's Only Love," "On the Military Train," "A Friend Like Rest,"
 
 # Why *On the Military Train* Meant So Much
 
-{% include youtube.html url="https://www.youtube.com/watch?v=JgQrWwREBeQ" title="Kim Min-woo – On the Military Train | Gayo Top 10 (1990)" %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=JgQrWwREBeQ](https://www.youtube.com/watch?v=JgQrWwREBeQ)" title="Kim Min-woo – On the Military Train | Gayo Top 10 (1990)" %}
 Among Kim Min-woo's songs, none carries greater cultural significance than **"On the Military Train."**
 
 The song tells the story of a young man leaving for military service: a farewell at the train station, a promise to return, and a love temporarily put on hold.
@@ -56,7 +56,7 @@ That is why the song continues to be remembered as one of the defining musical r
 
 # More Than One Hit Song
 
-{% include youtube.html url="https://www.youtube.com/watch?v=mfjr7JkoNes" title="Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
+{% include youtube.html url="[https://www.youtube.com/watch?v=mfjr7JkoNes](https://www.youtube.com/watch?v=mfjr7JkoNes)" title="Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
 lthough many people remember Kim Min-woo for **"It's Only Love,"** his musical legacy extends much further.
 
 **"It's Only Love"** launched him into stardom, **"On the Military Train"** became the soundtrack of an entire generation, and **"A Friend Like Rest"** showcased the warmth and sincerity that defined his vocal style.
