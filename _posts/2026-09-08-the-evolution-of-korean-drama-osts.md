@@ -5,6 +5,7 @@ category: K-OST
 description: Explore the history and evolution of Korean drama OSTs, from 1990s
   classic soundtracks to modern global hits that define K-drama storytelling.
 permalink: 2026/07/the-evolution-of-korean-drama-osts.html
+image: /assets/images/goblin.webp
 ---
 # From One Theme Song to the OST Part System
 
