@@ -43,7 +43,7 @@ Together, they created a partnership that combined club music with performance i
 
 # What Made Them Different?
 
-🎥 Recommended Watch: Chuli and Miae - "Why do you" (너는 왜) | MBC Saturday Night Music Show [October 17, 1992]
+{% include youtube.html url="https://www.youtube.com/watch?v=N28vLijnyJ0" title='Chuli and Miae - "Why Do You" (너는 왜) | MBC Saturday Night Music Show [October 17, 1992]' %}
 
 Their debut hit, **"Why do you?" (너는 왜)**, blended upbeat house rhythms with rap, melodic vocals, and energetic choreography.
 
