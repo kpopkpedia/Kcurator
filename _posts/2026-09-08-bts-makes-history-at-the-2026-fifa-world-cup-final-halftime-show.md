@@ -39,7 +39,7 @@ The halftime program was also connected to the FIFA Global Citizen Education Fun
 
 # Why BTS Performed “Dynamite”
 
-[▶️ Watch BTS’s Full Stage on FIFA Official YouTube](https://www.blogger.com/blog/post/edit/7250231614172444393/214393643478147449#)
+[▶️ Watch BTS’s Full Stage on FIFA Official YouTube](https://youtu.be/E3nWu1VgRJU?si=G5ijsSZCjvEoJGq7)
 
 BTS could have selected from many songs representing different stages of its career.
 
