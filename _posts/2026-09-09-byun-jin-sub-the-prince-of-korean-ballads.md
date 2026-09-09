@@ -124,11 +124,9 @@ Rather than focusing on a single hit, the compilation brings together television
 
 The video includes many of his signature songs, including **To Be Alone**, **Back to You**, **Like the Birds**, **Wishful Thinking**, **To the Lady**, **All I Can Give You Is Love**, and many more.
 
-🎥 [Playlist] Byun Jin-sub Song Collection 1988–1996 | KBS Stage Compilation
-
+🎥Byun Jin-sub Song Collection 1988–1996 | KBS Stage Compilation
 A comprehensive live collection showcasing his golden age performances on KBS television.
-{% include youtube.html url="[https://www.youtube.com/embed/8jq285mfiB8](https://www.youtube.com/embed/8jq285mfiB8)" %}
-
+{% include youtube.html url="https://www.youtube.com/embed/8jq285mfiB8" %}
 For listeners who wish to explore each classic in greater depth, K-pedia will also feature dedicated articles highlighting the stories, historical background, and musical significance of his individual songs.
 
 ---
