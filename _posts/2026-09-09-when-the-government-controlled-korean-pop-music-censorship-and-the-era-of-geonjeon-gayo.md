@@ -44,7 +44,8 @@ By the mid-1990s, a vibrant wave of alternative genres, hip-hop, and youth-drive
 
 This historic shift freed creators from administrative oversight, laying vital groundwork for the unprecedented global cultural boom that followed in the subsequent decades.
 
-🎥 Kim Min-ki - "Morning Dew" (아침 이슬) | Gyeore-ui Norae Concert (August 18, 1990)
+🎥 **Kim Min-ki - "Morning Dew" (아침 이슬)** — Gyeore-ui Norae Concert (August 18, 1990)
 {% include youtube.html url="https://www.youtube.com/embed/PireyOwCCD8" %}
-🎥 Han Dae-soo - 'To the Land of Happiness' (행복의 나라로) | Lee Sora's Proposal (KBS, Oct 25, 1997)
+
+🎥 **Han Dae-soo - "To the Land of Happiness" (행복의 나라로)** — Lee Sora's Proposal (KBS, Oct 25, 1997)
 {% include youtube.html url="https://www.youtube.com/embed/FjpPMhFRSSw" %}
