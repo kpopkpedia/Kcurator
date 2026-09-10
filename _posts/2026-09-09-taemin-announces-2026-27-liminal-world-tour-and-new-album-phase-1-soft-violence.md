@@ -94,17 +94,17 @@ Beyond promoting a new album, the tour reflects TAEMIN's continued presence as o
 
 # Recommended Live Showcase
 
-🎥 TAEMIN – "GUILTY" Live | WATERBOMB SEOUL 2026
+🎥 TAEMIN – "GUILTY" Live  WATERBOMB SEOUL 2026
 
 A captivating live festival performance highlighting TAEMIN's iconic stage presence.
 
-{% include youtube.html url="https://www.youtube.com/embed/6Q4x5d-R0aY" %}
+{% include youtube.html url="[https://www.youtube.com/embed/6Q4x5d-R0aY](https://www.youtube.com/embed/6Q4x5d-R0aY)" %}
 
-🎥 TAEMIN – "PERMISSION" | K-EXPO INKIGAYO in Paris (2026)
+🎥 TAEMIN – "PERMISSION"  K-EXPO INKIGAYO in Paris (2026)
 
 An energetic stage performance recorded live during the K-EXPO INKIGAYO concert in Paris.
 
-{% include youtube.html url="https://www.youtube.com/embed/jThYTuYZNKA" %}
+{% include youtube.html url="[https://www.youtube.com/embed/jThYTuYZNKA](https://www.youtube.com/embed/jThYTuYZNKA)" %}
 
 ---
 
