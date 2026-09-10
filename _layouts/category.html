@@ -161,7 +161,34 @@
       font-size: 15px;
       line-height: 1.65;
     }
+.post.hidden-post {
+  display: none;
+}
 
+.more-posts-wrap {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.more-posts-button {
+  display: inline-block;
+  padding: 10px 0 4px;
+  border: 0;
+  border-bottom: 1px solid #111;
+  background: transparent;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.more-posts-button:hover {
+  color: #7e9a17;
+  border-color: #7e9a17;
+}
     .empty {
       padding: 60px 0;
       color: #777;
@@ -260,8 +287,9 @@
 
   {% if category_posts.size > 0 %}
 
-    {% for post in category_posts %}
+{% for post in category_posts %}
 
+  <article class="post {% unless post.image %}no-image{% endunless %}{% if forloop.index > 12 %} hidden-post{% endif %}">
       <article class="post {% unless post.image %}no-image{% endunless %}">
 
         {% if post.image %}
@@ -288,9 +316,17 @@
 
         </div>
 
-      </article>
+           </article>
 
     {% endfor %}
+
+    {% if category_posts.size > 12 %}
+      <div class="more-posts-wrap">
+        <button type="button" class="more-posts-button" id="morePosts">
+          More
+        </button>
+      </div>
+    {% endif %}
 
   {% else %}
 
@@ -299,7 +335,6 @@
     </div>
 
   {% endif %}
-
 </main>
 
 <footer>
@@ -319,6 +354,26 @@
 
   </div>
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("morePosts");
 
+    if (!button) return;
+
+    button.addEventListener("click", function () {
+      const hiddenPosts = Array.from(
+        document.querySelectorAll(".post.hidden-post")
+      );
+
+      hiddenPosts.slice(0, 12).forEach(function (post) {
+        post.classList.remove("hidden-post");
+      });
+
+      if (document.querySelectorAll(".post.hidden-post").length === 0) {
+        button.style.display = "none";
+      }
+    });
+  });
+</script>
 </body>
 </html>
