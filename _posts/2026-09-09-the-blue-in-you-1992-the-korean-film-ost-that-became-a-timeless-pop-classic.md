@@ -2,7 +2,7 @@
 title: "The Blue in You (1992): The Korean Film OST That Became a Timeless Pop
   Classic"
 date: 2026-08-26 10:28:00
-category: Old K-pop
+category: K-OST
 description: 1992 Korean romance film starring Ahn Sung-ki and Kang Soo-yeon,
   and discover how its iconic OST by Kim Hyun-chul and Lee Sora.
 permalink: 2026/07/the-blue-in-you-1992-korean-movie-ost.html
