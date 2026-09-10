@@ -6,6 +6,7 @@ description: "Discover Oh Tae-ho (오태호), one of the defining songwriters of
   Korean pop, whose timeless ballads shaped artists like Lee Seung-hwan, Seo
   Ji-won, "
 permalink: 2026/07/oh-tae-ho-korean-pop-songwriter-history.html
+image: /assets/images/ohtaeho.jpg
 ---
 ## The Songwriter Who Shaped 1990s Korean Pop Ballads
 
@@ -30,7 +31,7 @@ As a singer-songwriter, composer, lyricist, and guitarist, Oh Tae-ho became one 
 
 ---
 
-##  Key Information
+## Key Information
 
 
 | **Category** | **Details** |
@@ -45,7 +46,7 @@ As a singer-songwriter, composer, lyricist, and guitarist, Oh Tae-ho became one 
 
 ---
 
-##  A Songwriter Behind a Generation
+## A Songwriter Behind a Generation
 
 Oh Tae-ho began his musical career as a guitarist and underground musician before gradually establishing himself as one of Korea's most respected composers.
 
@@ -65,9 +66,10 @@ Few Korean songwriters have contributed to as many enduring classics as Oh Tae-h
 
 ---
 
-##  Essential Songs
+## Essential Songs
 
-{% include youtube.html url="https://www.youtube.com/embed/tgNuHmmmZLk" %}
+{% include youtube.html url="[https://www.youtube.com/embed/tgNuHmmmZLk](https://www.youtube.com/embed/tgNuHmmmZLk)" %}
+
 
 
 
@@ -79,8 +81,6 @@ Few Korean songwriters have contributed to as many enduring classics as Oh Tae-h
 | **An Unadorned Confession** **(화려하지 않은 고백)** | Lee Seung-hwan | A timeless confession song celebrated for its lyrical sincerity. |
 | **With All My Heart** **(내 눈물 모아)** | Seo Ji-won | One of Korea's most enduring farewell ballads. |
 | **Between Love and Friendship** **(사랑과 우정사이)** | Pinocchio | A landmark rock ballad remembered for its emotional intensity. |
-
-
 
 
 ---
@@ -113,4 +113,3 @@ Today, his songs continue to be performed, covered, and rediscovered, standing a
 
 As the curator of K-pedia, I believe Oh Tae-ho deserves to be remembered not simply as a successful songwriter, but as one of the architects of modern Korean pop ballads.While audiences naturally remember the voices that performed these songs, it was Oh Tae-ho who quietly supplied many of their melodies, emotions, and stories. Listening to his work today reveals songwriting of remarkable clarity—melodies that linger, lyrics that feel conversational yet poetic, and arrangements that never overwhelm the song itself.His music reminds us that trends may define an era, but truly great songwriting outlives them.
 
-  
