@@ -1,7 +1,7 @@
 ---
 title: "The Fairy of Shampoo (1988): The Drama That Gave Birth to a Korean City
   Pop Classic"
-date: 2026-09-22 10:43:00
+date: 2026-08-22 10:43:00
 category: K-OST
 description: The Fairy of Shampoo (1988), the MBC drama that introduced Jang
   Ki-ho's timeless theme song, later immortalized by Light & Salt as a Korean
