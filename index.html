@@ -309,7 +309,34 @@ layout: null
       text-transform: uppercase;
     }
 
+.story-card.hidden-story {
+  display: none;
+}
 
+.more-stories-wrap {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.more-stories-button {
+  display: inline-block;
+  padding: 10px 0 4px;
+  border: 0;
+  border-bottom: 1px solid #111;
+  background: transparent;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.more-stories-button:hover {
+  color: #7e9a17;
+  border-color: #7e9a17;
+}
    /* =========================
    ABOUT
 ========================= */
@@ -699,11 +726,10 @@ layout: null
     <div class="story-grid">
 
 
-      {% for post in latest_posts offset:1 limit:6 %}
+{% for post in latest_posts offset:1 %}
+      {% assign story_index = forloop.index %}
 
-
-        <article class="story-card">
-
+<article class="story-card{% if story_index > 6 %} hidden-story{% endif %}">
 
           {% if post.image %}
 
@@ -760,7 +786,13 @@ layout: null
 
 
     </div>
-
+{% if latest_posts.size > 7 %}
+  <div class="more-stories-wrap">
+    <button type="button" class="more-stories-button" id="moreStories">
+      More
+    </button>
+  </div>
+{% endif %}
   </div>
 
 </section>
@@ -831,7 +863,27 @@ layout: null
   </div>
 
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("moreStories");
 
+    if (!button) return;
+
+    button.addEventListener("click", function () {
+      const hiddenStories = Array.from(
+        document.querySelectorAll(".story-card.hidden-story")
+      );
+
+      hiddenStories.slice(0, 6).forEach(function (story) {
+        story.classList.remove("hidden-story");
+      });
+
+      if (document.querySelectorAll(".story-card.hidden-story").length === 0) {
+        button.style.display = "none";
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
