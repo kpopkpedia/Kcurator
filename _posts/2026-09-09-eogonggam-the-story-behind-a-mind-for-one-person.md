@@ -68,11 +68,11 @@ Musically, the song builds seamlessly around a delicate piano motif and acoustic
 
 # Recommended Performance Collection
 
-🎥 EOGONGGAM – "A Mind for One Person" | Yeongsang Eumban Daesang (1992)
+🎥 EOGONGGAM – "A Mind for One Person" Yeongsang Eumban Daesang (1992)
 
 A live performance at the 1992 Yeongsang Eumban Daesang (the official name for the Golden Disc Awards at the time).
 
-{% include youtube.html url="https://www.youtube.com/embed/YDVPZgT6X3w" %}
+{% include youtube.html url="[https://www.youtube.com/embed/YDVPZgT6X3w](https://www.youtube.com/embed/YDVPZgT6X3w)" %}
 Experience the nostalgic stage presence and live harmonies of EOGONGGAM through this classic broadcast performance.
 
 ---
