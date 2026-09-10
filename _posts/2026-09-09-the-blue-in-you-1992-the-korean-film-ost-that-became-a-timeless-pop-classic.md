@@ -1,7 +1,7 @@
 ---
 title: "The Blue in You (1992): The Korean Film OST That Became a Timeless Pop
   Classic"
-date: 2026-08-25 10:28:00
+date: 2026-08-26 10:28:00
 category: Old K-pop
 description: 1992 Korean romance film starring Ahn Sung-ki and Kang Soo-yeon,
   and discover how its iconic OST by Kim Hyun-chul and Lee Sora.
@@ -75,7 +75,7 @@ These stylistic choices perfectly complemented Kim Hyun-chul's sophisticated sou
 # The OST That Outlived the Film
 
 🎥 "The Blue in You" (Movie The Blue in You OST), 1992
-{% include youtube.html url="https://www.youtube.com/embed/BtYb_1tsuCA" %}
+{% include youtube.html url="[https://www.youtube.com/embed/BtYb_1tsuCA](https://www.youtube.com/embed/BtYb_1tsuCA)" %}
 Although *The Blue in You* was well received, its soundtrack ultimately achieved even greater cultural longevity.
 
 Composed and produced by **Kim Hyun-chul**, the title song paired his sophisticated blend of jazz-pop, adult contemporary, and soft pop with the then-unknown vocalist **Lee Sora**.
@@ -89,7 +89,7 @@ Today, the song continues to be covered by younger artists and is widely regarde
 # The Song That Introduced Lee Sora
 
 🎥 Lee Sora, Kim Hyun-chul - "The Blue in You" | KBS Lee Sora's Propose (Broadcasted Nov 2, 1996)
-{% include youtube.html url="https://www.youtube.com/embed/33FKnl23xko" %}
+{% include youtube.html url="[https://www.youtube.com/embed/33FKnl23xko](https://www.youtube.com/embed/33FKnl23xko)" %}
 
 Beyond becoming a timeless classic, **"The Blue in You"** also marked the official debut of **Lee Sora**.
 
