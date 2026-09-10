@@ -83,14 +83,13 @@ Whether you're attending in person or following the tour online, **SHOW WHAT I A
 ## Recommended Videos
 
 🎥 IVE – "REBEL HEART" Official MV
-{% include youtube.html url="https://www.youtube.com/embed/g36q0ZLvygQg36q0ZLvygQ" %}
+{% include youtube.html url="[https://www.youtube.com/embed/g36q0ZLvygQg36q0ZLvygQ](https://www.youtube.com/embed/g36q0ZLvygQg36q0ZLvygQ)" %}
 
-🎥 IVE – "ATTITUDE" | Dance Society | Performance | 4K
-{% include youtube.html url="https://www.youtube.com/embed/S37Um-3BgSw" %}
+🎥 IVE – "ATTITUDE" | Dance Society  Performance 4K
+{% include youtube.html url="[https://www.youtube.com/embed/S37Um-3BgSw](https://www.youtube.com/embed/S37Um-3BgSw)" %}
 
-🎥 IVE WORLD TOUR SHOW WHAT I AM Tour Announcement
-{% include youtube.html url="https://www.youtube.com/embed/C19_G7jvxhk" %}
----
+## 🎥 IVE WORLD TOUR SHOW WHAT I AM Tour Announcement
+{% include youtube.html url="[https://www.youtube.com/embed/C19_G7jvxhk](https://www.youtube.com/embed/C19_G7jvxhk)" %}
 
 ## Official Tour Information
 
