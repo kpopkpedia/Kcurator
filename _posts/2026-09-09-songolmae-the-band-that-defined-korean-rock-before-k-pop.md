@@ -48,8 +48,8 @@ Known for his gritty, husky voice and understated stage presence, Bae gave Songo
 
 ## Songs That Defined an Era
 
-🎥 Songolmae - 'A Chance Encounter' (1982 KBS Music Awards) | 송골매 - '어쩌다 마주친 그대'
-{% include youtube.html url="https://www.youtube.com/embed/CbOeYbBe9Mk" %}
+🎥 Songolmae - 'A Chance Encounter' (1982 KBS Music Awards) 송골매 - '어쩌다 마주친 그대'
+{% include youtube.html url="[https://www.youtube.com/embed/CbOeYbBe9Mk](https://www.youtube.com/embed/CbOeYbBe9Mk)" %}
 Songolmae's breakthrough came with the release of their second album in 1982.
 
 The album featured **"A Chance Encounter" (어쩌다 마주친 그대)**, built around an instantly recognizable opening riff, infectious bass line, and irresistible groove. The song quickly became one of the defining Korean pop-rock hits of the decade and remains one of the band's signature recordings.
@@ -72,8 +72,8 @@ The incident became one of the defining moments in Korean broadcasting history a
 
 ## Koo Chang-mo's Solo Success and an Early Pan-Asian Milestone
 
-🎥 Koo Chang-mo - 'Heenari' (1985) | 구창모 - '희나리' (Green Firewood)
-{% include youtube.html url="https://www.youtube.com/embed/eewn9p2S9SM" %}
+🎥 Koo Chang-mo - 'Heenari' (1985) 구창모 - '희나리' (Green Firewood)
+{% include youtube.html url="[https://www.youtube.com/embed/eewn9p2S9SM](https://www.youtube.com/embed/eewn9p2S9SM)" %}
 In 1985, Koo Chang-mo left Songolmae to begin a solo career.
 
 His emotional ballad **"Heenari" (희나리)** quickly became one of the biggest Korean hits of the decade.
