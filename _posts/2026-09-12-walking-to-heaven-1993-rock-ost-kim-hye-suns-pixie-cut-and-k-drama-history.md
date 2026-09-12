@@ -4,7 +4,7 @@ date: 2026-09-12 11:27:00
 category: K-OST
 description: Walking to Heaven (1993), the MBC drama remembered for its hit rock
   OST, Kim Hye-sun's iconic pixie cut, and Choi Min-soo's unforgettable antihero
-permalink: 2026/08/walking-to-heaven-1993-kdrama-ost.html Location
+permalink: 2026/08/walking-to-heaven-1993-kdrama-ost.html
 image: /assets/images/walk-to-heaven.jpg
 ---
 Airing on MBC from January to March 1993, ***Walking to Heaven*  (걸어서 하늘까지)** captured the rugged, rebellious spirit of early-1990s Korean television. Moving away from the lighter tone of many campus and romantic dramas of the era, the 16-episode series drew audiences with its emotionally charged story of love, betrayal, and survival on the margins of society.
@@ -86,7 +86,7 @@ Meanwhile, Son Ji-chang brought emotional balance to the story as Goo Yeon-soo. 
 
 **"Walking to Heaven" (MBC, 1993) Main Theme**
 
-{% include youtube.html url="https://www.youtube.com/embed/L3tEI8pX-Pk" %}
+{% include youtube.html url="[https://www.youtube.com/embed/L3tEI8pX-Pk](https://www.youtube.com/embed/L3tEI8pX-Pk)" %}
 
 ## Jang Hyun-chul's Explosive Rock Theme
 
@@ -118,4 +118,3 @@ At the same time, Jang Hyun-chul's title song demonstrated that a rock-driven so
 
 Today, *Walking to Heaven* is remembered not only for its memorable performances and fashion influence but also as one of the defining examples of how music, style, and television storytelling converged in early-1990s Korean popular culture.
 
-  
