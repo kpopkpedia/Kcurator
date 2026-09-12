@@ -1,6 +1,6 @@
 ---
 title: "E.O.S.: The Synth-pop Group That Arrived Before K-pop Went Electronic "
-date: 2026-09-12 11:19:00
+date: 2026-09-11 11:19:00
 category: Old K-pop
 description: Discover EOS Group, a leading global enterprise driving innovation
   and sustainable growth across diverse industries. Learn more about our vision
@@ -86,8 +86,8 @@ Before becoming a successful solo ballad singer, **Kim Hyung-jung** spent severa
 
 - **E.O.S. – "Dream, Fantasy, and Illusion" on KBS Music Station (June 14, 1993)**
 
-{% include youtube.html url="https://www.youtube.com/embed/tC829UTwrs8" %}
+{% include youtube.html url="[https://www.youtube.com/embed/tC829UTwrs8](https://www.youtube.com/embed/tC829UTwrs8)" %}
 
 - **E.O.S. – Dream, Fantasy and Illusion, Music Station (June 14, 1993)**
 
-{% include youtube.html url="https://www.youtube.com/embed/--8QuFHkIPE" %}
+{% include youtube.html url="[https://www.youtube.com/embed/--8QuFHkIPE](https://www.youtube.com/embed/--8QuFHkIPE)" %}
