@@ -45,7 +45,7 @@ This commitment to authenticity contributed significantly to growing public inte
 
 ## The Soundtrack: Jung Yeon-jun – *Pilot*
 
-> **[MV] Pilot - Pilot OST (1993) | Sung by Jung Yeon-jun**
+**[MV] Pilot - Pilot OST (1993) Sung by Jung Yeon-jun**
 
 {% include youtube.html url="[https://www.youtube.com/embed/MycpLFivJAk](https://www.youtube.com/embed/MycpLFivJAk)" %}
 The drama's signature theme, **"Pilot,"** was performed by **Jung Yeon-jun**, who would later found the influential Korean R&B group **UPTOWN**.
