@@ -1,6 +1,6 @@
 ---
 title: "Pilot (1993): A Defining K-Drama of Youth, Ambition, and Flight"
-date: 2026-09-13 10:35:00
+date: 2026-09-13 10:23:00
 category: K-OST
 description: Explore Pilot (1993), the hit aviation drama that featured Choi
   Yong-jun's iconic theme song and helped shape 1990s Korean drama OST history.
@@ -47,7 +47,7 @@ This commitment to authenticity contributed significantly to growing public inte
 
 > **[MV] Pilot - Pilot OST (1993) | Sung by Jung Yeon-jun**
 
-{% include youtube.html url="https://www.youtube.com/embed/MycpLFivJAk" %}
+{% include youtube.html url="[https://www.youtube.com/embed/MycpLFivJAk](https://www.youtube.com/embed/MycpLFivJAk)" %}
 The drama's signature theme, **"Pilot,"** was performed by **Jung Yeon-jun**, who would later found the influential Korean R&B group **UPTOWN**.
 
 Built around soaring synthesizers, energetic drum programming, and an anthemic chorus, the song perfectly complements the drama's themes of youth, determination, and limitless possibility. Its opening synthesizer motif evokes the sensation of an aircraft accelerating down a runway before takeoff, immediately establishing the series' aviation identity.
