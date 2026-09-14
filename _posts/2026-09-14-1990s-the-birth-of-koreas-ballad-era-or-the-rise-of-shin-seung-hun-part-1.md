@@ -56,7 +56,7 @@ That culture would become one of the defining characteristics of Korean music th
 ## A Different Musical Landscape
 
 **Lee Sun-hee - To J Gayo Top 10 (1984)**
-{% include youtube.html url="https://www.youtube.com/embed/GpgRMHBXJ6s" %}
+{% include youtube.html url="[https://www.youtube.com/embed/GpgRMHBXJ6s](https://www.youtube.com/embed/GpgRMHBXJ6s)" %}
 
 The Korea of the 1980s also sounded very different from the country that would soon embrace K-pop.
 
@@ -117,7 +117,7 @@ And in 1990, its defining voice was about to arrive.
 
 
 # The Voice That Defined a Decade
-{% include youtube.html url="https://www.youtube.com/embed/kPJCwPtj-18" %}
+
 In 1990, South Korea was ready.
 
 The country had entered a new decade with growing confidence. The economy was expanding, the middle class was becoming larger, and the music industry itself was becoming more sophisticated. Record labels were investing more heavily in new talent, television music programs attracted millions of viewers every week, and buying albums had become part of youth culture.
@@ -148,8 +148,8 @@ Shin Seung-hun delivered exactly that.
 
 ## More Than a Hit Song
 
-**Shin Seung-hun - Reflection of You in Your Smile | Gayo Top 10 (1991)**
-{% include youtube.html url="https://www.youtube.com/embed/eAQbJwsR4EI" %}
+**Shin Seung-hun - Reflection of You in Your Smile Gayo Top 10 (1991)**
+{% include youtube.html url="[https://www.youtube.com/embed/kPJCwPtj-18](https://www.youtube.com/embed/kPJCwPtj-18)" %}
 Success in the early 1990s looked very different from today.
 
 There were no streaming charts, no YouTube views, and no social media trends to propel a song overnight.
@@ -200,10 +200,9 @@ They were a reflection of it.
 
 ## A New Standard for Success
 
-**Shin Seung-hun - Invisible Love | Gayo Top 10 (1992)**
+**Shin Seung-hun - Invisible Love Gayo Top 10 (1992)**
 
-![](https://img1.blogblog.com/img/widget_object.png)
-
+{% include youtube.html url="[https://www.youtube.com/embed/eAQbJwsR4EI](https://www.youtube.com/embed/eAQbJwsR4EI)" %}
 As his debut album continued to gain momentum, Shin Seung-hun quickly became one of the most talked-about new artists in Korea.
 
 His debut album went on to sell well over a million copies—an extraordinary achievement at a time when physical album sales measured an artist's popularity. The commercial success established him as one of the country's biggest new stars and signaled that Korean audiences were embracing a new generation of ballad singers.
