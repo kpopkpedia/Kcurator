@@ -3,8 +3,8 @@ title: "E.O.S.: The Synth-pop Group That Arrived Before K-pop Went Electronic "
 date: 2026-09-11 11:19:00
 category: Old K-pop
 description: Discover E.O.S, the pioneering South Korean techno-rock band led by
-  vocalist Kim Hyung-joong. Explore their legendary music history, iconic
-  tracks, and latest activities since their groundbreaking 1993 debut.
+  vocalist Kim Hyung-joong. Explore their music, key tracks, history, and
+  activities since their 1993 debut.
 permalink: 2026/07/old-k-pop-eos-synth-pop-group-that.html
 image: /assets/images/eos.jpg
 ---
