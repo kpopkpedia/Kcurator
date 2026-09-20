@@ -119,4 +119,6 @@ In **Part 2**, we turn to the medium that first introduced Korean culture to mil
 
 Today, Hallyu is often associated with sold-out concerts, blockbuster dramas, and record-breaking streaming numbers. Yet its origins were far more modest. It began with stories, songs, and films that resonated with audiences beyond Korea's borders—not because they were promoted as part of a national strategy, but because people genuinely connected with them.
 
+What makes Hallyu remarkable, then, is not simply how far Korean culture has traveled, but the order in which that journey happened. Audiences came first. Institutions followed. Understanding that sequence is essential to understanding the Korean Wave itself.
+
 This series traces that journey from its earliest beginnings to its global influence, exploring not only how Hallyu grew, but also why it continues to evolve.
