@@ -2,9 +2,8 @@
 title: "ZAM: One of Korea's Earliest Planned Co-ed Dance Groups "
 date: 2026-08-17 10:00:00
 category: Old K-pop
-description: Discover ZAM, the iconic 1990s K-pop co-ed group known for their
-  hit song "I Won't Stop." Explore their music, history, and lasting legacy in
-  Korean pop culture.
+description: How ZAM emerged as one of Korea's earliest planned co-ed dance
+  groups and helped shape the country's early 1990s dance-pop scene.
 permalink: 2026/07/old-k-pop-zam-one-of-koreas-earliest.html
 image: /assets/images/zam.webp
 ---
@@ -77,5 +76,5 @@ They may not be the first name people remember from the era, but they helped pro
 ## Recommended Videos
 
 🎥 ZAM – "Never Stop" (난 멈추지 않는다) | Saturday Night Music Show (June 12, 1993)
-{% include youtube.html url="https://www.youtube.com/embed/1cB-jRp4mc8" %}
+{% include youtube.html url="[https://www.youtube.com/embed/1cB-jRp4mc8](https://www.youtube.com/embed/1cB-jRp4mc8)" %}
 
