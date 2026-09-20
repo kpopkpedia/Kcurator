@@ -2,8 +2,8 @@
 title: "Byun Jin-sub (변진섭): The Prince of Korean Ballads"
 date: 2026-08-19 10:03:00
 category: Curator's Choice
-description: the legendary "Prince of Korean Ballads." Explore his iconic songs,
-  historic success, and lasting influence on Korean popular music.
+description: How Byun Jin-sub became one of Korea's defining ballad singers of
+  the late 1980s and early 1990s, helping shape the country's modern ballad era.
 permalink: 2026/07/byun-jin-sub-prince-of-korean-ballads.html
 image: /assets/images/bynjinsub.jpg
 ---
@@ -126,7 +126,7 @@ The video includes many of his signature songs, including **To Be Alone**, **Bac
 
 🎥Byun Jin-sub Song Collection 1988–1996 | KBS Stage Compilation
 A comprehensive live collection showcasing his golden age performances on KBS television.
-{% include youtube.html url="https://www.youtube.com/embed/8jq285mfiB8" %}
+{% include youtube.html url="[https://www.youtube.com/embed/8jq285mfiB8](https://www.youtube.com/embed/8jq285mfiB8)" %}
 For listeners who wish to explore each classic in greater depth, K-pedia will also feature dedicated articles highlighting the stories, historical background, and musical significance of his individual songs.
 
 ---
