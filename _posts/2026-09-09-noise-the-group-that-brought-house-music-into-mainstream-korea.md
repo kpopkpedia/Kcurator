@@ -2,9 +2,8 @@
 title: "Noise: The Group That Brought House Music into Mainstream Korea"
 date: 2026-09-07 08:22:00
 category: Old K-pop
-description: Discover Noise, the iconic 1990s K-pop group. Explore their hit
-  tracks, member profiles, album discography, and musical legacy in Korean pop
-  history.
+description: How Noise brought club-influenced dance music into Korea's
+  mainstream in the 1990s and became one of the era's defining dance groups.
 permalink: 2026/07/old-k-pop-noise-group-that-brought.html
 image: /assets/images/noise.jpg
 ---
@@ -44,8 +43,7 @@ Throughout the mid-1990s, their songs could be heard almost everywhere, from tel
 
 **🎥 Recommended Watch: NOISE - "You in My Imagination" (1995) [KBS Gayo Top 10]**
 
-{% include youtube.html url="https://www.youtube.com/embed/2RsstO_Gbu4" %}
-
+{% include youtube.html url="[https://www.youtube.com/embed/2RsstO_Gbu4](https://www.youtube.com/embed/2RsstO_Gbu4)" %}
 
 Rather than becoming a one-hit wonder, Noise continued to evolve over the next several years.
 
