@@ -41,9 +41,9 @@ What began with television dramas and music has grown into a global cultural mov
 
 
 | Part | Title & Key Focus Area | Status |
-| ------ | ---------------------------------------------------------- | --------------------- |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | Part 1 | **What Is Hallyu?** **The Birth of Korea's Cultural Wave** | **Currently Reading** |
-| Part 2 | The Rise of Korean Dramas: The First Face of Hallyu | Upcoming |
+| Part 2 | [The Rise of Korean Dramas: The First Face of Hallyu](https://www.kcurator.com/2026/07/the-rise-of-korean-dramas-first-face-of-hallyu.html) | **Completed** |
 | Part 3 | From Seo Taiji to BTS: The Evolution of K-pop | Upcoming |
 | Part 4 | Beyond Entertainment: How Hallyu Became a Lifestyle | Upcoming |
 | Part 5 | The Legacy of Hallyu: Culture Without Borders | Upcoming |
