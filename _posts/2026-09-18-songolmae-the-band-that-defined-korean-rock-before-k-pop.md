@@ -2,8 +2,8 @@
 title: "Songolmae (송골매): The Band That Defined Korean Rock Before K-pop"
 date: 2026-09-18 11:25:00
 category: K-pop History
-description: Songolmae (송골매), Bae Cheol-soo, and Koo Chang-mo transformed Korean
-  rock with timeless songs, groundbreaking performances, and a legacy.
+description: How Songolmae brought Korean rock into the mainstream in the 1980s
+  and became one of the country's most influential popular bands.
 permalink: 2026/07/songolmae-korean-rock-history.html
 image: /assets/images/songolmae-1.jpg
 ---
