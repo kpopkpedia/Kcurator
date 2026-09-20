@@ -2,9 +2,9 @@
 title: "Kim Jong-seo (김종서): The Rock Legend Who Brought Korean Rock to the Mainstream"
 date: 2026-08-22 10:05:00
 category: Old K-pop
-description: Discover Kim Jong-seo (김종서), Korea's legendary rock vocalist from
-  Sinawe and Boohwal, whose million-selling solo career brought rock to the
-  mainstream.
+description: >
+  How Kim Jong-seo became a defining voice of Korean rock, from his band years
+  to a solo career that brought rock vocals into the mainstream.
 permalink: 2026/07/kim-jong-seo-korean-rock-legend.html
 image: /assets/images/kimjongseo.jpg
 ---
@@ -79,7 +79,7 @@ Together, they expanded the possibilities of Korean popular music in very differ
 Kim Jong-seo's solo debut and breakthrough hit. The song introduced his emotionally charged rock ballad style to a nationwide audience and became one of the defining songs of his career.
 
 🎥 Kim Jong-seo – "An Answerless You" SBS Inkigayo Ep. 28 (1992.06.23)
-{% include youtube.html url="https://www.youtube.com/embed/XLyLuBnp1Rw" %}
+{% include youtube.html url="[https://www.youtube.com/embed/XLyLuBnp1Rw](https://www.youtube.com/embed/XLyLuBnp1Rw)" %}
 **Winter Rain (겨울비) (1993)**  
 Originally recorded during Kim Jong-seo's time with Boohwal, this song was reinterpreted for his second solo album. The new version transformed it into one of the greatest Korean rock ballads ever recorded, combining emotional vocals with soaring guitar melodies.
 
@@ -89,9 +89,8 @@ One of Kim Jong-seo's most uncompromising rock songs, "Plastic Syndrome" critici
 **Beautiful Restriction (아름다운 구속) (1996)**  
 Perhaps Kim Jong-seo's most universally loved song. With its bright melodies and accessible pop-rock sound, "Beautiful Restriction" proved that rock music could be energetic, uplifting, and commercially successful at the same time. Even today, it remains one of Korea's most recognizable rock songs.
 
-🎥 Kim Jong-seo – "Beautiful Restriction" KBS Gayo Top 10
-{% include youtube.html url="https://www.youtube.com/embed/BERKy9fy3A4" %}
----
+## 🎥 Kim Jong-seo – "Beautiful Restriction" KBS Gayo Top 10
+{% include youtube.html url="[https://www.youtube.com/embed/BERKy9fy3A4](https://www.youtube.com/embed/BERKy9fy3A4)" %}
 
 # Why Kim Jong-seo Matters
 
