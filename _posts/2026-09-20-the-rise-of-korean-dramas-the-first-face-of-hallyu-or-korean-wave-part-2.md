@@ -48,8 +48,8 @@ Their success was never based on spectacle alone. Emotional sincerity, tightly s
 
 
 | Part | Title & Key Focus Area | Status |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
-| **Part 1** | [What Is Hallyu? The Birth of Korea's Cultural Wave](https://www.blogger.com/blog/post/edit/7250231614172444393/292668633756655505#) | **Completed** |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| **Part 1** | [What Is Hallyu? The Birth of Korea's Cultural Wave](https://www.kcurator.com/2026/07/what-is-hallyu-birth-of-korean-wave.html) | **Completed** |
 | **Part 2** | **The Rise of Korean Dramas: The First Face of Hallyu** | **Currently Reading** |
 | **Part 3** | From Seo Taiji to BTS: The Evolution of K-pop | Upcoming |
 | **Part 4** | Beyond Entertainment: How Hallyu Became a Lifestyle | Upcoming |
@@ -79,7 +79,7 @@ The name was born not from Korean promotion but from overseas observation. Befor
 
 ## Chapter 2: Winter Sonata: More Than a Drama, a Memory
 
-{% include youtube.html url="https://www.youtube.com/embed/uSgqmH7hLOM" %}
+{% include youtube.html url="[https://www.youtube.com/embed/uSgqmH7hLOM](https://www.youtube.com/embed/uSgqmH7hLOM)" %}
 **겨울연가(Winter Sonata) MV_처음부터 지금까지 (2002)**
 
 For many Japanese viewers, *Winter Sonata* (겨울연가) was never simply another television drama. It became a memory.
@@ -98,7 +98,7 @@ What made *Winter Sonata* especially significant was who it reached. Early Hally
 
 ## Chapter 3: Dae Jang Geum: A Global Cultural Tradition
 
-{% include youtube.html url="https://www.youtube.com/embed/vgES_Nwl_RY" %}
+{% include youtube.html url="[https://www.youtube.com/embed/vgES_Nwl_RY](https://www.youtube.com/embed/vgES_Nwl_RY)" %}
 **[Happy Time] drama 'Dae Jang Geum' OST - MBCentertainment**
 
 If *Winter Sonata* introduced Korea to Japan, *Dae Jang Geum* (대장금 / *Jewel in the Palace*) introduced Korea to the world.
