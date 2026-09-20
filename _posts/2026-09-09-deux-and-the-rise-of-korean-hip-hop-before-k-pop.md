@@ -2,9 +2,8 @@
 title: "DEUX and the Rise of Korean Hip-Hop Before K-pop "
 date: 2026-08-18 10:38:00
 category: Old K-pop
-description: Explore the legend of DEUX, the iconic 90s Korean hip-hop and dance
-  duo. Discover their discography, hit tracks, music videos, and enduring
-  pop-culture legacy.
+description: How DEUX helped reshape Korean dance music in the early 1990s
+  through hip-hop, new jack swing, and a new approach to performance.
 permalink: 2026/07/bonus-chapter-deux-and-rise-of-korean.html
 image: /assets/images/deux.jpg
 ---
