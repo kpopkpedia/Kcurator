@@ -2,8 +2,9 @@
 title: 'EOGONGGAM (이오공감): The Story Behind "A Mind for One Person"'
 date: 2026-09-09 21:41:00
 category: K-pop History
-description: Discover EOGONGGAM (이오공감) and their timeless 1992 ballad "A Mind
-  for One Person," one of Korea's most beloved duet classics.
+description: >
+  How EOGONGGAM captured the sound of 1990s Korean pop through sophisticated
+  melodies, vocal harmony, and a distinctive urban sensibility.
 permalink: 2026/08/eogonggam-a-mind-for-one-person.html
 image: /assets/images/eogonggam.jpeg
 ---
