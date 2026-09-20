@@ -2,9 +2,8 @@
 title: "Shin Hae-chul (Part 2): From Infinite Track to Solo Innovator"
 date: 2026-09-02 10:00:00
 category: K-pop History
-description: A complete guide to Shin Hae-chul’s solo discography. Discover the
-  tracklists, album lore, and iconic hits that defined the "Crom" era of Korean
-  pop and rock music.
+description: How Shin Hae-chul expanded beyond pop stardom through N.EX.T,
+  experimentation, social commentary, and an uncompromising approach to music.
 permalink: 2026/07/k-pop-history-shin-hae-chul-part-2-from.html
 image: /assets/images/infinite-track.jpg
 ---
@@ -45,7 +44,7 @@ Instead of joining an established entertainment company as a conventional singer
 ## Reinventing Himself as a Solo Artist
 
 🎥 Shin Hae-chul (신해철) – "Jazz Café" (재즈카페) Live @ SBS Inkigayo (1991.12.22)
-{% include youtube.html url="https://www.youtube.com/embed/zG_8rF17QYk" %}
+{% include youtube.html url="[https://www.youtube.com/embed/zG_8rF17QYk](https://www.youtube.com/embed/zG_8rF17QYk)" %}
 Shin Hae-chul's first solo albums surprised audiences. Listeners who expected another campus-rock vocalist instead discovered an artist fascinated by technology, arrangement, and sound design.
 
 Songs such as **"Jazz Café"**, **"Don't Look So Sad" (슬픈 표정 하지 말아요)**, and **"Deep Inside My Heart" (내 마음 깊은 곳의 너)** demonstrated his ability to combine memorable melodies with increasingly sophisticated production.
