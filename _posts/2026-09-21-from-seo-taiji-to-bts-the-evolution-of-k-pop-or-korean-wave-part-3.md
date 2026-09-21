@@ -96,7 +96,7 @@ As the leading first-generation girl groups, S.E.S. and Fin.K.L established the 
 
 ## Chapter 3: Conquering Asia
 
-{% include youtube.html url="https://www.youtube.com/embed/ceZc-5p3g1w" %}
+{% include youtube.html url="[https://www.youtube.com/embed/ceZc-5p3g1w](https://www.youtube.com/embed/ceZc-5p3g1w)" %}
 **BoA 보아 'No.1' Official MV**
 
 During the 2000s, K-pop shifted from being a successful domestic industry to becoming a major force across Asia.
@@ -133,7 +133,7 @@ Although their activities in the United States were relatively short, Wonder Gir
 
 ## Chapter 4: The Global Breakthrough
 
-{% include youtube.html url="https://www.youtube.com/embed/9bZkp7q19f0" %}
+{% include youtube.html url="[https://www.youtube.com/embed/9bZkp7q19f0](https://www.youtube.com/embed/9bZkp7q19f0)" %}
 **PSY - GANGNAM STYLE (강남스타일) Official MV**
 
 The 2010s witnessed the digital shift that propelled K-pop into mainstream global music culture. By the early 2010s, the way K-pop reached international audiences was changing. YouTube, social media, and global fan communities allowed Korean music to circulate without relying entirely on traditional overseas television and record distribution. K-pop was no longer expanding market by market; it could now reach audiences around the world simultaneously.
@@ -187,6 +187,4 @@ K-pop's global success is often explained through its biggest stars. But its his
 
 Seo Taiji changed the music. The first idol groups built the system and fandom. BoA and TVXQ developed overseas markets. YouTube weakened geographic barriers. BTS and BLACKPINK expanded what was possible within that global network.
 
-Seen this way, K-pop was not an overnight global phenomenon. It was an industry that spent decades learning how to travel.
-
-***From Seo Taiji's musical revolution to the worldwide success of BTS and BLACKPINK, the history of K-pop is ultimately a story of continuous evolution. That journey is still unfolding.***
+*Seen this way, K-pop was not an overnight global phenomenon. It was an industry that spent decades learning how to travel.*
