@@ -1,6 +1,6 @@
 ---
 title: "Songolmae (송골매): The Band That Defined Korean Rock Before K-pop"
-date: 2026-09-18 11:25:00
+date: 2026-08-30 11:25:00
 category: K-pop History
 description: How Songolmae brought Korean rock into the mainstream in the 1980s
   and became one of the country's most influential popular bands.
