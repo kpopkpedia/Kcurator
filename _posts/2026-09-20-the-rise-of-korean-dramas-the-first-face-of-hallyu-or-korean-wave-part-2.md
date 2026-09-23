@@ -51,8 +51,8 @@ Their success was never based on spectacle alone. Emotional sincerity, tightly s
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | **Part 1** | [What Is Hallyu? The Birth of Korea's Cultural Wave](https://www.kcurator.com/2026/07/what-is-hallyu-birth-of-korean-wave.html) | **Completed** |
 | **Part 2** | **The Rise of Korean Dramas: The First Face of Hallyu** | **Currently Reading** |
-| **Part 3** | From Seo Taiji to BTS: The Evolution of K-pop | Upcoming |
-| **Part 4** | Beyond Entertainment: How Hallyu Became a Lifestyle | Upcoming |
+| **Part 3** | [From Seo Taiji to BTS: The Evolution of K-pop](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
+| **Part 4** | [Beyond Entertainment: How Hallyu Became a Lifestyle](https://www.kcurator.com/2026/08/how-hallyu-became-global-lifestyle.html) | **Completed** |
 | **Part 5** | The Legacy of Hallyu: Culture Without Borders | Upcoming |
 
 
