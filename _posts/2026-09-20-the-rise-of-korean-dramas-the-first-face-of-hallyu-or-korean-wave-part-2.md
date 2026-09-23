@@ -53,7 +53,7 @@ Their success was never based on spectacle alone. Emotional sincerity, tightly s
 | **Part 2** | **The Rise of Korean Dramas: The First Face of Hallyu** | **Currently Reading** |
 | **Part 3** | [From Seo Taiji to BTS: The Evolution of K-pop](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
 | **Part 4** | [Beyond Entertainment: How Hallyu Became a Lifestyle](https://www.kcurator.com/2026/08/how-hallyu-became-global-lifestyle.html) | **Completed** |
-| **Part 5** | The Legacy of Hallyu: Culture Without Borders | Upcoming |
+| **Part 5** | [The Legacy of Hallyu: Culture Without Borders](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
 
 
 ---
