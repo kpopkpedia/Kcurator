@@ -50,11 +50,11 @@ Global collaborations, virtual performers, AI-assisted production, and projects 
 
 
 | Part | Title & Key Focus Area | Status |
-| ---------- | ---------------------------------------------------------------------------------------------- | --------------------- |
-| **Part 1** | [What Is Hallyu? The Birth of Korea's Cultural Wave](https://chatgpt.com/c/INSERT-PART-1-URL) | **Completed** |
-| **Part 2** | [The Rise of Korean Dramas: The First Face of Hallyu](https://chatgpt.com/c/INSERT-PART-2-URL) | **Completed** |
-| **Part 3** | [From Seo Taiji to BTS: The Evolution of K-pop](https://chatgpt.com/c/INSERT-PART-3-URL) | **Completed** |
-| **Part 4** | [Beyond Entertainment: How Hallyu Became a Lifestyle](https://chatgpt.com/c/INSERT-PART-4-URL) | **Completed** |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| **Part 1** | [What Is Hallyu? The Birth of Korea's Cultural Wave](https://www.kcurator.com/2026/07/what-is-hallyu-birth-of-korean-wave.html) | **Completed** |
+| **Part 2** | [The Rise of Korean Dramas: The First Face of Hallyu](https://www.kcurator.com/2026/07/the-rise-of-korean-dramas-first-face-of-hallyu.html) | **Completed** |
+| **Part 3** | [From Seo Taiji to BTS: The Evolution of K-pop](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
+| **Part 4** | [Beyond Entertainment: How Hallyu Became a Lifestyle](https://www.kcurator.com/2026/08/how-hallyu-became-global-lifestyle.html) | **Completed** |
 | **Part 5** | **The Legacy of Hallyu: Culture Without Borders** | **Currently Reading** |
 
 
@@ -194,7 +194,7 @@ The next stage of the Korean Wave may be harder to define than the previous ones
 
 One striking example is *KPop Demon Hunters*.
 
-{% include youtube.html url="https://www.youtube.com/embed/yebNIHKAC4A" %}
+{% include youtube.html url="[https://www.youtube.com/embed/yebNIHKAC4A](https://www.youtube.com/embed/yebNIHKAC4A)" %}
 
 **“Golden” Official Lyric Video | KPop Demon Hunters**
 
