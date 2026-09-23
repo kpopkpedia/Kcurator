@@ -51,7 +51,7 @@ Cultural interest also encouraged more people to study Korean, turning entertain
 | **Part 2** | [The Rise of Korean Dramas: The First Face of Hallyu](https://www.kcurator.com/2026/07/the-rise-of-korean-dramas-first-face-of-hallyu.html) | **Completed** |
 | **Part 3** | [From Seo Taiji to BTS: The Evolution of K-pop](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
 | **Part 4** | **Beyond Entertainment: How Hallyu Became a Lifestyle** | **Currently Reading** |
-| **Part 5** | The Legacy of Hallyu: Culture Without Borders | Upcoming |
+| **Part 5** | [The Legacy of Hallyu: Culture Without Borders](https://www.kcurator.com/2026/08/legacy-of-hallyu-culture-without-borders.html) | **Completed** |
 
 
 ---
