@@ -59,7 +59,7 @@ From PSY's YouTube revolution to BTS's stadium-scale dominance and BLACKPINK's f
 | **Part 2** | [The Rise of Korean Dramas: The First Face of Hallyu](https://www.kcurator.com/2026/07/the-rise-of-korean-dramas-first-face-of-hallyu.html) | **Completed** |
 | **Part 3** | **From Seo Taiji to BTS: The Evolution of K-pop** | **Currently Reading** |
 | **Part 4** | [Beyond Entertainment: How Hallyu Became a Lifestyle](https://www.kcurator.com/2026/08/how-hallyu-became-global-lifestyle.html) | **Completed** |
-| **Part 5** | The Legacy of Hallyu: Culture Without Borders | Upcoming |
+| **Part 5** | [The Legacy of Hallyu: Culture Without Borders](https://www.kcurator.com/2026/08/from-seo-taiji-to-bts-evolution-of-kpop.html) | **Completed** |
 
 
 ---
