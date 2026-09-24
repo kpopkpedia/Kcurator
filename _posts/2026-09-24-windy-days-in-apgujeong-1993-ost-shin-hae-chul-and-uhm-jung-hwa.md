@@ -105,9 +105,8 @@ That makes "Pupil" especially interesting in retrospect.
 
 The Uhm Jung-hwa who would later become closely associated with Korean dance-pop had not yet fully emerged. Here, listeners can hear her before that image and musical identity were firmly established.
 
-🎥 **Uhm Jung-hwa – "Pupil" (눈동자) | 1993 TV Performance**
-{% include youtube.html url="https://www.youtube.com/embed/fSW6cJ_12Xk" %}
----
+## 🎥 **Uhm Jung-hwa – "Pupil" (눈동자) 1993 TV Performance**  
+{% include youtube.html url="[https://www.youtube.com/embed/fSW6cJ_12Xk](https://www.youtube.com/embed/fSW6cJ_12Xk)" %}
 
 # Tracklist
 
