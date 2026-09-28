@@ -168,11 +168,11 @@ Its lyrics about exhaustion, persistence, and continuing forward helped turn "Ru
 
 # Recommended Performances
 
-🎥 **Yoon Sang Stage Compilation | KBS Broadcast Archives**
+🎥 **Yoon Sang Stage Compilation  KBS Broadcast Archives**
 
 A collection of television performances offering a glimpse of how Yoon Sang presented his carefully produced studio music on Korean broadcast stages.
 
-{% include youtube.html url="https://www.youtube.com/embed/RXll4hiH2a0" %}
+{% include youtube.html url="[https://www.youtube.com/embed/RXll4hiH2a0](https://www.youtube.com/embed/RXll4hiH2a0)" %}
 
 ---
 
