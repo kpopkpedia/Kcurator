@@ -84,7 +84,7 @@ Kim Seung-gi and Lee Mi-ki performed it on **KBS's *Gayo Top 10*** in December 1
 
 A live television performance of the drama's main title song by its original vocalists.
 
-[image](https://img1.blogblog.com/img/widget_object.png)
+{% include youtube.html url="[https://www.youtube.com/embed/JAuj0Zb8Hnk](https://www.youtube.com/embed/JAuj0Zb8Hnk)" %}
 
 ---
 
@@ -157,8 +157,7 @@ As a result, some viewers encountering his voice in *When I Miss You* may alread
 It is a small connection, but one that captures how Korean popular music circulated in the early 1990s—not only through albums and music programs, but through dramas and advertising as well.
 
 🎥 **Maxwell Coffee Mix Commercial featuring Kim Seung-gi's "HAM" (1992)**
-
-{% include youtube.html url="https://www.youtube.com/embed/JAuj0Zb8Hnk" %}
+{% include youtube.html url="https://www.youtube.com/embed/4UQh_1YANmg" %}
 
 ---
 
