@@ -80,7 +80,7 @@ The song also traveled beyond the drama itself.
 
 Kim Seung-gi and Lee Mi-ki performed it on **KBS's *Gayo Top 10*** in December 1993, placing a television drama theme directly within one of Korea's major popular-music programs of the period.
 
-🎥 **Kim Seung-gi & Lee Mi-ki – "When I Miss You" | KBS Gayo Top 10 (1993)**
+🎥 **Kim Seung-gi & Lee Mi-ki – "When I Miss You" KBS Gayo Top 10 (1993)**
 
 A live television performance of the drama's main title song by its original vocalists.
 
