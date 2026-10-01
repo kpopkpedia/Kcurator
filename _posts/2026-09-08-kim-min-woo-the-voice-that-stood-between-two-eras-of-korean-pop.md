@@ -18,9 +18,10 @@ Kim Min-woo's story is not simply one of fame interrupted. It is the story of an
 
 ---
 
-# A Meteoric Debut
+## A Meteoric Debut
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=ObXOb6Oo3fQ](https://www.youtube.com/watch?v=ObXOb6Oo3fQ)" title="Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)" %}
+{% include youtube.html url="https://www.youtube.com/watch?v=ObXOb6Oo3fQ" title="Kim Min-woo - It's Only Love | KBS2 Show Saturday Express Summer Special (July 28, 1990)" %}
+
 Kim Min-woo made his debut in February 1990 with his first full-length album.
 
 At the time, he was virtually unknown. Within months, however, he had become one of Korea's most celebrated new singers.
@@ -33,9 +34,10 @@ Songs such as **"It's Only Love," "On the Military Train," "A Friend Like Rest,"
 
 ---
 
-# Why *On the Military Train* Meant So Much
+## Why *On the Military Train* Meant So Much
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=JgQrWwREBeQ](https://www.youtube.com/watch?v=JgQrWwREBeQ)" title="Kim Min-woo – On the Military Train | Gayo Top 10 (1990)" %}
+{% include youtube.html url="https://www.youtube.com/watch?v=JgQrWwREBeQ" title="Kim Min-woo - On the Military Train | Gayo Top 10 (1990)" %}
+
 Among Kim Min-woo's songs, none carries greater cultural significance than **"On the Military Train."**
 
 The song tells the story of a young man leaving for military service: a farewell at the train station, a promise to return, and a love temporarily put on hold.
@@ -54,14 +56,15 @@ That is why the song continues to be remembered as one of the defining musical r
 
 ---
 
-# More Than One Hit Song
+## More Than One Hit Song
 
-{% include youtube.html url="[https://www.youtube.com/watch?v=mfjr7JkoNes](https://www.youtube.com/watch?v=mfjr7JkoNes)" title="Kim Min-woo - Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
-lthough many people remember Kim Min-woo for **"It's Only Love,"** his musical legacy extends much further.
+{% include youtube.html url="https://www.youtube.com/watch?v=mfjr7JkoNes" title="Kim Min-woo - A Friend Like Rest (CF Ver.) | E-Land Fashion Commercial (1990)" %}
+
+Although many people remember Kim Min-woo for **"It's Only Love,"** his musical legacy extends much further.
 
 **"It's Only Love"** launched him into stardom, **"On the Military Train"** became the soundtrack of an entire generation, and **"A Friend Like Rest"** showcased the warmth and sincerity that defined his vocal style.
 
-Its popularity reached beyond radio and television. At the height of his fame, Kim Min-woo also worked as a commercial model.
+His popularity reached beyond radio and television. At the height of his fame, Kim Min-woo also worked as a commercial model.
 
 One of his best-known appearances was an **E-Land fashion commercial** featuring actress **Lee Sang-ah**, one of Korea's most recognizable young stars of the era. The commercial used **"A Friend Like Rest"** as its theme, reinforcing Kim's image as the gentle, romantic voice of early-1990s Korea.
 
@@ -69,7 +72,7 @@ Today, the advertisement serves as more than nostalgic entertainment. It capture
 
 ---
 
-# Three Years That Changed Everything
+## Three Years That Changed Everything
 
 Kim Min-woo left the stage at the height of his success.
 
@@ -81,7 +84,7 @@ Between 1990 and 1993, Korean popular music experienced one of the most dramatic
 
 ---
 
-# When He Returned, Korea Had Changed
+## When He Returned, Korea Had Changed
 
 When Kim Min-woo completed his military service and returned to music, he found an industry that no longer resembled the one he had left behind.
 
@@ -93,20 +96,19 @@ His absence coincided almost perfectly with one of the greatest paradigm shifts 
 
 ---
 
-# Why Kim Min-woo Still Matters
+## Why Kim Min-woo Still Matters
 
 Kim Min-woo was not an artist who remained at the top for decades. Yet his place in Korean music history remains significant.
 
-His songs captured the emotional landscape of late-1980s Korea, and his career documented one of the most important turning points in the evolution of Korean popular music.
+His songs captured the emotional landscape of Korea at the turn from the 1980s to the 1990s, and his career documented one of the most important turning points in the evolution of Korean popular music.
 
 Remembering Kim Min-woo is therefore about more than remembering a singer—it is about remembering a moment in history. That is precisely why he deserves a place as the very first artist featured in **Curator's Choice**.
 
 ---
 
-# Essential Listening
+## Essential Listening
 
-- • It's Only Love (사랑일 뿐이야) [1990]
-- • On the Military Train (입영열차 안에서) [1990]
-- • A Friend Like Rest (휴식 같은 친구) [1990]
-- • For Lovers Who Must Part (헤어져야 할 사람) [1990]
-
+- It's Only Love (사랑일 뿐야) [1990]
+- On the Military Train (입영열차 안에서) [1990]
+- A Friend Like Rest (휴식 같은 친구) [1990]
+- For Lovers Who Must Part (헤어져야 할 사람) [1990]
