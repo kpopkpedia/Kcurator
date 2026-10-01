@@ -99,8 +99,9 @@ A: The U.S. leg visits **Belmont Park (New York), Chicago, Fort Worth, Cedar Par
 
 For the latest tour announcements, ticket sales, and venue-specific information, visit the official sources below.
 
-- [MAMAMOO Official YouTube Channel]<li><a href="https://www.youtube.com/channel/UCuhAUMLzJxlP1W7mEk0_6lA" target="_blank" rel="noopener">MAMAMOO Official YouTube Channel</a></li>
-    <li><a href="https://www.kaitaksportspark.com.hk/events-tickets/mamamoo-2026-world-tour-4-ward-in-hong-kong" target="_blank" rel="noopener">Hong Kong Concert Information (Kai Tak Arena)</a></li>
-    <li><a href="https://www.cotaiticketing.com/shows/mamamoo2026.html" target="_blank" rel="noopener">Macau Concert Information (The Londoner Arena)</a></li>
-    <li><a href="https://kklivetw.kktix.cc/events/54a70a7a" target="_blank" rel="noopener">Kaohsiung Ticket Information (KKTIX)</a></li>
-    <li><a href="https://www.livenation.com/artist/K8vZ917_3mf/mamamoo-events" target="_blank" rel="noopener">Live Nation – U.S. Tour Dates</a></li>
+- [MAMAMOO Official YouTube Channel](https://www.youtube.com/channel/UCuhAUMLzJxlP1W7mEk0_6lA)
+- [Hong Kong Concert Information (Kai Tak Arena)](https://www.kaitaksportspark.com.hk/events-tickets/mamamoo-2026-world-tour-4-ward-in-hong-kong)
+- [Macau Concert Information (The Londoner Arena)](https://www.cotaiticketing.com/shows/mamamoo2026.html)
+- [Kaohsiung Ticket Information (KKTIX)](https://kklivetw.kktix.cc/events/54a70a7a)
+- [Live Nation – U.S. Tour Dates](https://www.livenation.com/artist/K8vZ917_3mf/mamamoo-events)
+
