@@ -45,7 +45,15 @@ Yet his broadcast was far more than provocation. For many young Koreans struggli
 
 ## Intellectual Leadership: Speaking Truth to Society
 
+Shin Hae-chul’s influence extended well beyond music. At a time when Korean entertainers were often expected to remain cautious about controversial public issues, he repeatedly entered debates about society, education, politics, and individual freedom.
+
+He appeared several times on MBC’s *100-Minute Debate* and became known for expressing his views directly, including on subjects such as Korea’s education system, the abolition of the adultery law, and the legalization of marijuana. His arguments frequently generated controversy, and his outspoken style attracted both strong support and criticism. Yet his willingness to participate in these debates distinguished him from many mainstream entertainers of his generation.
+
+This public role was closely connected to the persona audiences encountered in his music and radio work. Whether discussing the pressures placed on young people, questioning established social expectations, or challenging ideas he considered restrictive, Shin treated public discussion as another space in which individuals should be free to think and argue for themselves.
+
+For many listeners, this was an important part of what made Shin Hae-chul more than a successful musician. His legacy was shaped not only by the sounds he introduced to Korean popular music, but also by his insistence that an artist could participate openly in the wider conversations taking place in society.
+
 🎥 Infinite Track — "To You" (그대에게)
-{% include youtube.html url="https://www.youtube.com/embed/SVxiqGiLMCM" %}
+{% include youtube.html url="[https://www.youtube.com/embed/SVxiqGiLMCM](https://www.youtube.com/embed/SVxiqGiLMCM)" %}
 
 The debut song of Infinite Track (led by Shin Hae-chul), which won the Grand Prize at the 12th MBC Campus Music Festival in 1988.
