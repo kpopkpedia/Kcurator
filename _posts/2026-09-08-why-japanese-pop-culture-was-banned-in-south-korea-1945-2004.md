@@ -7,7 +7,7 @@ description: Explore why Japanese pop culture was banned in South Korea from
 permalink: 2026/07/japanese-pop-culture-ban-south-korea.html
 image: /assets/images/japanese-culture.jpg
 ---
-oday, K-pop idols regularly perform sold-out Tokyo Dome concerts, collaborate with Japanese producers, and top the Oricon charts with original Japanese releases.
+Today, K-pop idols regularly perform sold-out Tokyo Dome concerts, collaborate with Japanese producers, and top the Oricon charts with original Japanese releases.
 
 Yet for more than five decades, Japanese music, films, television broadcasts, and theatrical anime were subject to extensive legal and regulatory restrictions in South Korea.
 
@@ -68,7 +68,7 @@ Many musicians and producers were exposed to Japanese pop, city pop, rock, and f
 # Unexpected Cultural Exchanges & Legal Remakes
 
 🎥 Shohjo-tai (少女隊) – "Tell Her" (Cover of Sobangcha) | MBC Saturday Saturday is Fun (Feb 1988)
-{% include youtube.html url="https://www.youtube.com/embed/JNm0N3yPhQE" %}
+{% include youtube.html url="[https://www.youtube.com/embed/JNm0N3yPhQE](https://www.youtube.com/embed/JNm0N3yPhQE)" %}
 A historic performance broadcast live on Korean TV a decade before the official lifting of the ban.
 
 ### Historical Note
@@ -93,7 +93,7 @@ Through bootleg recordings, overseas travel, and unofficial exchanges, many Kore
 # The Four-Stage Cultural Opening (1998–2004)
 
 🎥 The First Phase of Lifting the Ban on Japanese Culture (Oct 20, 1998) | KBS News Broadcast
-{% include youtube.html url="https://www.youtube.com/embed/1tgIykLsqsY" %}
+{% include youtube.html url="[https://www.youtube.com/embed/1tgIykLsqsY](https://www.youtube.com/embed/1tgIykLsqsY)" %}
 Historic news report from October 1998 covering South Korea's official announcement to open its doors to Japanese popular culture.
 
 
