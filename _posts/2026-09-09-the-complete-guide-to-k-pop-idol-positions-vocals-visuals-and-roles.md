@@ -170,4 +170,32 @@ The Maknae is the youngest member of the group.
 
 Although traditionally associated with youthful charm, today's maknaes display a wide range of personalities—from playful and affectionate to confident and charismatic.
 
-Fans often celebrate unique dynamics such as the **"maknae on top"**, referring to younger members who confidently tease or lead their older teammates.
+Fans often celebrate unique dynamics such as the **"maknae on top"**, referring to younger members who confidently tease or lead their older teammates.  
+  
+확인했습니다. 이 글은 **내릴 글이 아닙니다.** 오히려 K-pedia의 `CULTURE` 축에 상당히 잘 맞아요.
+
+현재 글은 단순히 “Main Vocalist = 노래 잘하는 사람” 식의 짧은 용어집이 아닙니다. `Leader → Main/Lead Vocalist → Main/Lead Dancer → Main/Lead Rapper → Visual → Center → Face of the Group → Maknae`를 구분하고, 실제 아이돌 사례를 통해 **한국 아이돌 그룹에서 역할이 어떻게 구성되는지** 설명하고 있습니다.
+
+다만 받은 피드백에서 **고칠 가치가 있는 부분은 분명히 있습니다.**
+
+### 1. 가장 아쉬운 건 정말 결말입니다
+
+현재 마지막 `Maknae` 설명이 끝나면 사실상 글도 끝납니다.
+
+이 때문에 앞부분은 꽤 상세한데 마지막 인상이 **K-pop terminology guide**로 끝나요. K-pedia가 왜 이걸 다루는지 한 번 더 묶어주면 훨씬 좋아집니다.
+
+저라면 맨 아래에 이것을 추가하겠습니다.
+
+### Why K-pop Positions Matter
+
+K-pop positions are more than simple labels for individual members. They reflect the way the Korean idol system developed around specialization, teamwork, and clearly defined roles.
+
+In earlier generations of idol groups, these roles were often highly visible. A main vocalist handled the most demanding vocal passages, a main dancer led performance-focused sections, and a designated leader frequently represented the group in public settings. Terms such as *visual*, *center*, and *maknae* also became part of the vocabulary through which Korean fans understood a group's internal structure.
+
+Over time, however, these boundaries have become less rigid. Many contemporary idols move between singing, rapping, dancing, songwriting, production, acting, fashion, and other activities, while some newer groups avoid assigning detailed official positions altogether.
+
+Understanding these terms therefore offers more than a way to identify who does what in a K-pop group. They provide a glimpse into how the Korean idol system has organized group identity—and how that system continues to change.
+
+**Curator's Note**
+
+The vocabulary of K-pop can sometimes seem unusually specific to international audiences. But these terms developed alongside the idol system itself. Learning them is also a way of understanding how Korean pop groups have historically been organized, promoted, and understood by their audiences.
