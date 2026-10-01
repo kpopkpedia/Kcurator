@@ -2,9 +2,8 @@
 title: "Kim Gun-mo: The Voice of Korea's 1990s Music Boom & the Reggae Pop Pioneer"
 date: 2026-09-25 11:48:00
 category: Old K-pop
-description: Explore Kim Gun-mo's rise in 1990s Korean pop, from "Pinggye" and
-  "Wrongful Meeting" to his record-breaking album success and genre-blending
-  legacy.
+description: Explore Kim Gun-mo's rise in 1990s Korean pop, from Pinggye and
+  Wrongful Meeting to record-breaking album sales and genre-blending reggae pop.
 permalink: 2026/08/kim-gun-mo-1990s-korean-pop.html
 image: /assets/images/kimgunmo.jpeg
 ---
@@ -132,12 +131,12 @@ His career captures the scale and diversity of South Korea's 1990s music industr
 His importance lies not only in record sales, but also in the range of music he brought into the mainstream—from reggae-influenced dance tracks to R&B, funk, jazz, and ballads.
 
 🎥 **Kim Gun-mo – "Pinggye (Excuse)" (English Ver.) KBS Gayo Top 10 (1994)**
-{% include youtube.html url="https://www.youtube.com/embed/1nBSABl3UbE" %}
+{% include youtube.html url="[https://www.youtube.com/embed/1nBSABl3UbE](https://www.youtube.com/embed/1nBSABl3UbE)" %}
 
 A rare English-language performance of his reggae-influenced breakthrough hit.
 
 🎥 **Kim Gun-mo – "Wrongful Meeting" (잘못된 만남) KBS Gayo Top 10 (1995)**
-{% include youtube.html url="https://www.youtube.com/embed/kXXFlw5n6LE" %}
+{% include youtube.html url="[https://www.youtube.com/embed/kXXFlw5n6LE](https://www.youtube.com/embed/kXXFlw5n6LE)" %}
 
 A television performance of one of the defining Korean pop hits of the mid-1990s.
 
