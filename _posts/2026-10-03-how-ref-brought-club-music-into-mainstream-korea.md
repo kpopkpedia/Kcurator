@@ -2,8 +2,8 @@
 title: How R.ef Brought Club Music into Mainstream Korea
 date: 2026-10-03 12:09:00
 category: Old K-pop
-description: Before they were stars, R.ef were club DJs. The story of "Farewell
-  Formula," "Shout in Silence," 3.7 million records sold, and the messy birth of
+description: Before they were stars, R.ef were club DJs. The story of Farewell
+  Formula, Shout in Silence, 3.7 million records sold, and the messy birth of
   K-pop.
 permalink: 2026/10/ref-rave-effect-farewell-formula.html
 image: /assets/images/ref.jpeg
@@ -27,7 +27,7 @@ That background matters. R.ef was not a pop act borrowing a fashionable club sou
 ## The Sound: Club Energy, Pop Melodies
 
 **🎥 Recommended Watch: R.ef – "Shout in Silence" (고요 속의 외침), 1995**
-{% include youtube.html url="https://www.youtube.com/embed/GpIhJ15retk" %}
+{% include youtube.html url="[https://www.youtube.com/embed/i0ND_iHc9vM](https://www.youtube.com/embed/GpIhJ15retk)" %}
 
 R.ef's debut album, *Rave Effect*, was fast, bright, and relentless. Its two signature songs, "Shout in Silence" (고요 속의 외침) and "Farewell Formula" (이별공식), ran on driving electronic rhythms, but their choruses were built to be sung along to in a living room as easily as on a dance floor.
 
@@ -42,6 +42,8 @@ Rather than a footnote, I think that controversy is one of the most revealing th
 ## "Farewell Formula": A Breakup Song That Refuses to Act Like One
 
 **🎥 Recommended Watch: R.ef – "Farewell Formula" (이별공식), 1995**
+
+{% include youtube.html url="[https://www.youtube.com/embed/GpIhJ15retk](https://www.youtube.com/embed/GpIhJ15retk)" %}
 
 If "Shout in Silence" introduced R.ef, "Farewell Formula" made them stars. The song reached No. 1 on KBS's Gayo Top 10 and remained there for three consecutive weeks in October 1995.
 
