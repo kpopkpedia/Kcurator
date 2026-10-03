@@ -27,7 +27,7 @@ That background matters. R.ef was not a pop act borrowing a fashionable club sou
 ## The Sound: Club Energy, Pop Melodies
 
 **🎥 Recommended Watch: R.ef – "Shout in Silence" (고요 속의 외침), 1995**
-{% include youtube.html url="[https://www.youtube.com/embed/i0ND_iHc9vM](https://www.youtube.com/embed/GpIhJ15retk)" %}
+{% include youtube.html url="[https://www.youtube.com/embed/i0ND_iHc9vM](https://www.youtube.com/embed//i0ND_iHc9vM)" %}
 
 R.ef's debut album, *Rave Effect*, was fast, bright, and relentless. Its two signature songs, "Shout in Silence" (고요 속의 외침) and "Farewell Formula" (이별공식), ran on driving electronic rhythms, but their choruses were built to be sung along to in a living room as easily as on a dance floor.
 
