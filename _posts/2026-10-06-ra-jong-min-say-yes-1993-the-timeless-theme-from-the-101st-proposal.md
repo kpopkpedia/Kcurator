@@ -1,6 +1,6 @@
 ---
 title: "Ra Jong-min – Say Yes (1993): The Timeless Theme from The 101st Proposal"
-date: 2026-10-02 11:32:00
+date: 2026-10-06 11:32:00
 category: K-OST
 description: Ra Jong-min's "Say Yes" (1993), the theme of The 101st Proposal,
   carried a Japanese mega-hit into Korea years before Japanese pop culture was
@@ -57,7 +57,7 @@ The hook is a request rather than a declaration: *say yes*. That fits a film abo
 ### Recommended Performance
 
 🎥 **Ra Jong-min – "Say Yes" | KBS Gayo Top 10 (October 13, 1993)**
-{% include youtube.html url="https://www.youtube.com/embed/JHrgPXP_v2k" %}
+{% include youtube.html url="[https://www.youtube.com/embed/JHrgPXP_v2k](https://www.youtube.com/embed/JHrgPXP_v2k)" %}
 
 This broadcast performance comes from autumn 1993, a few months after the film's release, when the song was at its peak. It's worth watching for the period feel alone: the set, the camera work, and a singer standing still and simply singing.
 
