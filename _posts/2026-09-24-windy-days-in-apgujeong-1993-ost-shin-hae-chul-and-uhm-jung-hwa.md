@@ -3,7 +3,7 @@ title: "Windy Days in Apgujeong (1993) OST: Shin Hae-chul & Uhm Jung-hwa"
 date: 2026-09-24 16:42:00
 category: K-OST
 description: Explore the 1993 Windy Days in Apgujeong soundtrack, featuring Shin
-  Hae-chul, N.EX.T and Uhm Jung-hwa's early recording "Pupil."
+  Hae-chul, N.EX.T and Uhm Jung-hwa's early recording Pupil.
 permalink: 2026/07/windy-days-in-apgujeong-1993-ost.html
 image: /assets/images/windy.jpg
 ---
