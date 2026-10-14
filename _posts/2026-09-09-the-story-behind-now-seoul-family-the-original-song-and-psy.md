@@ -2,7 +2,7 @@
 title: 'The Story Behind "Now" (이제는): Seoul Family, the Original Song, and PSY'
 date: 2026-09-04 10:16:00
 category: Curator's Choice
-description: Discover the story behind "Now" (이제는), from Seoul Family's Korean
+description: Discover the story behind Now (이제는), from Seoul Family's Korean
   classic to its 1984 original and PSY's modern remake.
 permalink: 2026/07/now-seoul-family-original-song-psy.html
 image: /assets/images/seoulfamily.jpeg
@@ -222,15 +222,18 @@ The third looks back at that Korean memory and turns it into contemporary retro 
 # Recommended Performances
 
 1. Jermaine Jackson & Pia Zadora — “When the Rain Begins to Fall” (1984)
-{% include youtube.html url="https://www.youtube.com/embed/qYbqM3MUZBI" %}
+
+{% include youtube.html url="[https://www.youtube.com/embed/qYbqM3MUZBI](https://www.youtube.com/embed/qYbqM3MUZBI)" %}
 Begin with the international original. Pay attention not only to the unmistakable melody but to the relationship between the two voices and the optimistic emotional meaning of the lyrics.
 
 2. Seoul Family — “Now” (이제는) (1987)
-{% include youtube.html url="https://www.youtube.com/embed/JpvpzXZwaJo" %}
+
+{% include youtube.html url="[https://www.youtube.com/embed/JpvpzXZwaJo](https://www.youtube.com/embed/JpvpzXZwaJo)" %}
 Then listen to Seoul Family. The melody is immediately familiar, but the emotional landscape has changed. Wi Il-cheong and Kim Seung-mi transform the song through their contrasting vocal styles and Korean lyrics centered on memory and separation.
 
 3. PSY feat. Hwasa — “Now” (이제는) (2022)
-{% include youtube.html url="https://www.youtube.com/embed/2saWSGoWmrU" %}
+
+{% include youtube.html url="[https://www.youtube.com/embed/2saWSGoWmrU](https://www.youtube.com/embed/2saWSGoWmrU)" %}
 Finally, watch the PSY and Hwasa version. By this point, the song is no longer presented simply as an adaptation of an overseas hit. It functions as Korean retro pop—a piece of Korea's own musical past being rediscovered.
 
 ---
