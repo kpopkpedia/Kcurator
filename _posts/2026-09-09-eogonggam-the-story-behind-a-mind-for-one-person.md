@@ -1,5 +1,5 @@
 ---
-title: 'EOGONGGAM (이오공감): The Story Behind "A Mind for One Person"'
+title: "EOGONGGAM (이오공감): The Story Behind A Mind for One Person"
 date: 2026-09-09 21:41:00
 category: K-pop History
 description: >
