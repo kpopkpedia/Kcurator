@@ -4,8 +4,8 @@ title: "Yoon Sang: The Singer-Songwriter Who Brought a New Sound to Korean Pop
 date: 2026-09-27 09:51:00
 category: K-pop History
 description: Explore Yoon Sang's early career, from his 1990 solo debut and
-  electronic pop sound to classics including "The Shadow of Farewell," "Between
-  Hidden Times," and "Running."
+  electronic pop sound to classics including The Shadow of Farewell, Between
+  Hidden Times, and Running.
 permalink: 2026/08/yoon-sang-singer-songwriter-history.html
 image: /assets/images/yoonsang.jpg
 ---
